@@ -25,7 +25,7 @@ Caducidad_Token=Math.floor(Date.now()/1000)+(60 * 60)
 //Conexiones
 //=======================
 
-mongoUrl= 'mongodb://localhost:27017/Feriados';
+mongoUrl= 'mongodb://localhost:27017/FeriadosDB';
 
 //=======================
 // Feriados

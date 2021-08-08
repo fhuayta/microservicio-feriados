@@ -53,7 +53,7 @@ app.use(bodyParser.json());
 app.use(require(&apos;./routes/index&apos;));
 //app.use(express.static(path.resolve(__dirname,&apos;../public&apos;)))
 
-mongoose.connect(&apos;mongodb://localhost:27017/Feriados&apos;,(err)=&gt;{
+mongoose.connect(&apos;mongodb://localhost:27017/FeriadosDB&apos;,(err)=&gt;{
 	if(err) throw err;
 	console.log(&apos;Base de datos en el aire&apos;);
 });
