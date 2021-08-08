@@ -1,0 +1,38 @@
+{
+  "name": "doc-generator",
+  "version": "1.0.0",
+  "description": "Generador de Apidoc y Test de Integración para servicios web creados con express.",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run test-unit && npm run test-integration",
+    "test-unit": "./node_modules/.bin/ava test/unit/* --serial --verbose",
+    "test-integration": "./node_modules/.bin/ava test/integration/* --serial --verbose",
+    "lint": "./node_modules/.bin/eslint src"
+  },
+  "bin": {
+    "doc": "src/cli/doc.js"
+  },
+  "author": "Alex Quispe <wilmer.quispe@agetic.gob.bo>",
+  "license": "MIT",
+  "dependencies": {
+    "apidoc": "^0.17.6",
+    "cli-table": "^0.3.1",
+    "commander": "^2.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.16.4",
+    "lodash": "^4.17.11",
+    "mkdirp": "^0.5.1",
+    "sequelize": "^4.41.2",
+    "supertest": "^3.3.0",
+    "yamljs": "^0.3.0"
+  },
+  "devDependencies": {
+    "ava": "^0.25.0",
+    "eslint": "^4.19.1",
+    "eslint-config-standard": "^11.0.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-node": "^7.0.1",
+    "eslint-plugin-promise": "^4.0.0",
+    "eslint-plugin-standard": "^3.1.0"
+  }
+}

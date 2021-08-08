@@ -1,0 +1,486 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <base data-ice="baseUrl" href="../../../">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title data-ice="title">server/controller/feriado.js | Agetic BPM Feriados</title>
+  <link type="text/css" rel="stylesheet" href="css/style.css">
+  <link type="text/css" rel="stylesheet" href="css/prettify-tomorrow.css">
+  <script src="script/prettify/prettify.js"></script>
+  <script src="script/manual.js"></script>
+<meta name="description" content="Api para obtener feriados del pais en general "><meta property="twitter:card" content="summary"><meta property="twitter:title" content="Agetic BPM Feriados"><meta property="twitter:description" content="Api para obtener feriados del pais en general "></head>
+<body class="layout-container" data-ice="rootContainer">
+
+<header>
+  <a href="../swagger"> Inicio </a>
+  <a href="./manual/index.html" data-ice="manualHeaderLink">Manual</a>
+  <a href="identifiers.html">Referencias</a>
+  <a href="source.html">C&#xF3;digo fuente</a>
+  
+
+  <div class="search-box">
+  <span>
+    <img src="./image/search.png">
+    <span class="search-input-edge"></span><input class="search-input"><span class="search-input-edge"></span>
+  </span>
+    <ul class="search-result"></ul>
+  </div>
+<a href="https://gitlab.geo.gob.bo/agetic/agetic-bpm-feriados">Repository</a></header>
+
+<nav class="navigation" data-ice="nav"><div>
+  <ul>
+    
+  </ul>
+</div>
+</nav>
+
+<div class="content" data-ice="content"><h1 data-ice="title">server/controller/feriado.js</h1>
+<pre class="source-code line-number raw-source-code"><code class="prettyprint linenums" data-ice="content">const {feriados,meses} = require(&apos;../config/config&apos;)
+const {Feriado,A&#xF1;o} = require(&apos;../models/feriado&apos;)
+const moment=require(&apos;moment&apos;)
+const { mensajeError, mensajeExito }=require(&apos;../utils/handleResponse&apos;)
+moment.locale(&apos;es&apos;)
+var _ = require(&apos;lodash&apos;)
+
+const _sumarDiasFecha = async (fecha, dias) =&gt; {
+  let formatoFecha = &apos;DD/MM/YYYY&apos;;
+  const existeFeriados = await A&#xF1;o.findOne({ gestion: moment(fecha, formatoFecha).format(&apos;YYYY&apos;) });
+  if (!existeFeriados) {
+    throw new Error(&apos;No se gener&#xF3; la lista de feriados para ese a&#xF1;o.&apos;)
+  }
+  let feriados = await Feriado.find({}, { fecha: 1 });
+  if (feriados &amp;&amp; feriados.length &lt;= 0) {
+    throw new Error(&apos;No existe la lista de feriados.&apos;);
+  }
+  let cont = 0;
+  feriados = feriados.map(x =&gt; moment(x.fecha, &apos;YYYY-MM-DD&apos;).format(&apos;DD/MM/YYYY&apos;));
+  while (dias &gt; cont) {
+    fecha = moment(fecha, formatoFecha).add(1, &apos;days&apos;);
+    fecha = moment(fecha).format(formatoFecha);
+    console.log(&apos;==========================_MENSAJE_A_MOSTRARSE_==========================&apos;);
+    console.log(feriados.includes(fecha), fecha, moment(fecha, &apos;DD/MM/YYYY&apos;).day(), moment(fecha, &apos;DD/MM/YYYY&apos;).day());
+    console.log(&apos;==========================_MENSAJE_A_MOSTRARSE_==========================&apos;);
+    if (feriados.includes(fecha) || moment(fecha, &apos;DD/MM/YYYY&apos;).day() === 6 || moment(fecha, &apos;DD/MM/YYYY&apos;).day() === 0) {
+    } else {
+      cont ++;
+    }
+  }
+  return fecha
+}
+
+module.exports={
+  fechaInicial: async (req, res) =&gt; {
+    const anio=req.query.anio
+    const vacio=req.query.vacio 
+      const fecha_inicial = (anio) =&gt; {
+        let p_m = 24
+        let p_n = 5
+        let p_a, p_b, p_c, p_d, p_e, p_dia, p_mes
+        p_a = anio % 19
+        p_b = anio % 4
+        p_c = anio % 7
+        p_d = (19 * p_a + p_m) % 30
+        p_e = (2 * p_b + 4 * p_c + 6 * p_d + p_n) % 7
+        if ((p_d + p_e) &lt; 10) {
+          p_dia = p_d + p_e + 22
+          p_mes = 3
+        } else {
+          p_dia = p_d + p_e - 9
+          p_mes = 4
+        }
+        if (p_dia == 26 &amp;&amp; p_mes == 4) {
+          p_dia = 19
+        } else if (p_dia == 25 &amp;&amp; p_mes == 4 &amp;&amp; p_d == 28 &amp;&amp; p_e == 6 &amp;&amp; p_a &gt; 10) {
+          p_dia = 18
+        }
+        let fechaCalculada = moment(`${anio}/${p_mes}/${p_dia}`).format(&apos;YYYY-MM-DD&apos;)
+        return fechaCalculada
+      }
+    
+/*      const fecha_inicial= (anio) =&gt;{
+        let p_a,p_b,p_c,p_d,p_e,p_f,p_g,p_h,p_i,p_k,p_l,p_m,p_n,mes,dia
+        p_a=anio%19
+        p_b=(anio-(anio%100))/100
+        p_c=anio%100
+        p_d=(p_b-(p_b%4))/4
+        p_e=p_b%4
+        p_f=((p_b+8)-((p_b+8)%25))/25
+        p_g=((p_b+p_f+1)-((p_b+p_f+1)%3))/3
+        p_h=((19*p_a)+p_b+p_d+p_g+15)%30
+        p_i=(p_c-(p_c%4))/4
+        p_k=p_c%4
+        p_l=(32+(2*p_e)+(2*p_i)-p_h-p_k)%7
+        p_m=((p_a+(11*p_h)+(22*p_l))-((p_a+(11*p_h)+(22*p_l))%451))/451
+        p_n=p_h+p_l+-(7*p_m)+114
+        mes=(p_n-(p_n%31))/31
+        dia=1+(p_n%31)
+        let fecha_calculada=moment(`${anio}-${mes}-${dia}`).add(7,&apos;day&apos;).format(&apos;YYYY-MM-DD&apos;)
+        return fecha_calculada
+      }
+**/
+      let copia_feriados=_.clone(feriados)
+      let fechaCalculada = fecha_inicial(anio)
+      const listaFeriados = (feriados) =&gt; {
+        const nuevosFeriados = []
+        for (let item of feriados) {
+          const fecha = moment(`${anio}-${item.fecha}`)
+          if (!fecha.isValid()) {
+            if (item.fecha == &apos;-&apos;) {
+              nuevosFeriados.push(moment(fechaCalculada).subtract(1, &apos;year&apos;).add(2, &apos;month&apos;).add(1, &apos;year&apos;).subtract(1, &apos;day&apos;).format(&apos;YYYY-MM-DD&apos;) )
+            } else {
+              nuevosFeriados.push(moment(fechaCalculada).subtract(parseInt(item.fecha.substring(1, item.fecha.length)), &apos;days&apos;).format(&apos;YYYY-MM-DD&apos;) )
+            }
+          } else {
+            nuevosFeriados.push(moment(`${anio}-${item.fecha}`).format(&apos;YYYY-MM-DD&apos;) )
+          }
+        }
+        return nuevosFeriados
+      }
+      let nuevosFeriados = listaFeriados(copia_feriados)
+      const soloFeriadosHabiles = (copia_feriados) =&gt; {
+        let nuevosFeriados = []
+        for (let feriado of copia_feriados) {
+          if ( moment(feriado).format(&apos;dddd&apos;) == &apos;Sunday&apos;) {
+            feriado = moment(feriado).add(1, &apos;day&apos;).format(&apos;YYYY-MM-DD&apos;)
+          }
+          nuevosFeriados.push(feriado)
+        }
+        return nuevosFeriados
+      }
+      let nuevosFeriados_1 = soloFeriadosHabiles(nuevosFeriados)
+      let i=0
+      let copia_feriados_1=[]
+      let dia_festivo
+      for(let copia_feriado of copia_feriados){
+          dia_festivo=new Object()
+          dia_festivo.fecha=nuevosFeriados_1[i]
+          dia_festivo.motivo=copia_feriado.motivo
+          copia_feriados_1.push(dia_festivo)
+          i=i+1
+      }
+      let feriado;
+      if(vacio){
+        let gestion=new A&#xF1;o({
+          gestion: anio,
+          vacio:vacio
+        });
+        gestion.save((err,a&#xF1;oDB)=&gt;{
+          if(err){
+            return res.status(400).json({
+              finalizado:false,
+              mensaje:`El a&#xF1;o ${anio} ya existe`,
+              datos:null 
+            })
+          }
+          mensajeExito(res,`Se creo la gestion ${anio}`,200,a&#xF1;oDB)  
+        })  
+      }
+      else{
+        let gestion=new A&#xF1;o({
+          gestion: anio,
+          vacio:false
+        });
+        gestion.save((err,a&#xF1;oDB)=&gt;{
+          if(err){
+            return res.status(400).json({
+              finalizado:false,
+              mensaje:`El a&#xF1;o ${anio} ya existe`,
+              datos:null 
+            })
+          }
+          for(let item of copia_feriados_1){
+            feriado=new Feriado({
+                fecha:item.fecha,
+                motivo:item.motivo
+            });
+            feriado.save((error,feriadoDB)=&gt;{
+              if(error){
+                return res.status(400).json({
+                  finalizado:false,
+                  mensaje:`la fecha ${item.fecha} ya existe`
+                });
+              }
+            });
+          }
+          res.json({
+            finalizado:true,
+            mensaje:`Se creo el calendario de la gestion ${anio}`,
+            datos:a&#xF1;oDB
+          })
+        })
+      }
+  },
+  listarFeriados: async (req, res)=&gt; {
+    try {
+      const feriados = await Feriado.find({}, { fecha: 1, motivo: 1 });
+      if (feriados &amp;&amp; feriados.length &lt;= 0) {
+        throw new Error(&apos;No existe la lista de feriados.&apos;);
+      }
+      mensajeExito(res,`Se genero la lista de feriados`,200,feriados)
+    } catch (error) { 
+      mensajeError(res, error.message);
+    }
+  },
+  restarFechas: async (req, res) =&gt; {
+    try {
+      const { fechaInicial, fechaFinal, diasPorAnio, diasPorMes } = req.query;
+      const formatoFecha = &apos;DD/MM/YYYY&apos;;
+      if (!moment(fechaInicial, formatoFecha).isValid() || !moment(fechaFinal, formatoFecha).isValid()) {
+        throw new Error(&apos;La fecha inicial o final no es valida.&apos;)
+      }
+      if (moment(fechaFinal, formatoFecha).isBefore(moment(fechaInicial, formatoFecha))) {
+        throw new Error(&apos;La fecha inicial no puede ser mayor a la fecha final.&apos;)
+      }
+      if (!diasPorAnio || !diasPorMes) {
+        throw new Error(&apos;Debe enviar el estimado de dias por anio y por mes.&apos;)
+      }
+      let datosFinales = {
+        dias: 0,
+        meses: 0,
+        anios: 0,
+        totalDias: 0
+      }
+      datosFinales.dias = datosFinales.totalDias = moment(fechaFinal, formatoFecha).diff(moment(fechaInicial, formatoFecha), &apos;days&apos;);
+      datosFinales.anios = Math.floor(datosFinales.dias/diasPorAnio);
+      datosFinales.dias = Math.floor(datosFinales.dias - (datosFinales.anios * diasPorAnio));
+      datosFinales.meses = Math.floor(datosFinales.dias/diasPorMes);
+      datosFinales.dias = Math.floor(datosFinales.dias - (datosFinales.meses * diasPorMes));
+      mensajeExito(res,`Fecha calculada correctamente`, 200, datosFinales);
+    } catch (error) { 
+      mensajeError(res, error.message);
+    }
+  },
+  sumarDias: async (req, res)=&gt; {
+    try {
+      let { fecha } = req.query;
+      const { dias } = req.params;
+      fecha = moment(fecha, &apos;DD/MM/YYYY&apos;).add(dias, &apos;days&apos;);
+      fecha = moment(fecha).format(&apos;DD/MM/YYYY&apos;);
+      mensajeExito(res,`Fecha calculada correctamente`, 200, fecha);
+    } catch (error) { 
+      mensajeError(res, error.message);
+    }
+  },
+  compararDias: async (req, res)=&gt; {
+    try {
+      const { fechaInicial, fechaFinal, dias, calendario } = req.query;
+      const formatoFecha = &apos;DD/MM/YYYY&apos;;
+      if (!moment(fechaInicial, formatoFecha).isValid() || !moment(fechaFinal, formatoFecha).isValid()) {
+        throw new Error(&apos;La fecha inicial o final no es valida.&apos;)
+      }
+      if (moment(fechaFinal, formatoFecha).isBefore(moment(fechaInicial, formatoFecha))) {
+        throw new Error(&apos;La fecha inicial no puede ser mayor a la fecha final.&apos;)
+      }
+      let fecha = &apos;&apos;
+      if (calendario) {
+        fecha = moment(fechaInicial, &apos;DD/MM/YYYY&apos;).add(dias, &apos;days&apos;);
+        fecha = moment(fecha).format(&apos;DD/MM/YYYY&apos;);
+      } else {
+        fecha = await _sumarDiasFecha(fechaInicial, dias);
+      }
+      console.log(&apos;==========================_MENSAJE_A_MOSTRARSE_==========================&apos;);
+      console.log( &apos;fechaInicial: &apos;, fechaInicial, &apos;fechaFinal: &apos;, fechaFinal, &apos;fechaCalculada: &apos;, fecha, moment(fechaFinal, formatoFecha).isBefore(moment(fecha, formatoFecha)), moment(fechaFinal, formatoFecha).isSame(moment(fecha, formatoFecha)));
+      console.log(&apos;==========================_MENSAJE_A_MOSTRARSE_==========================&apos;);
+      mensajeExito(res,`Fecha calculada correctamente`, 200, { cumple: !moment(fechaFinal, formatoFecha).isBefore(moment(fecha, formatoFecha)) &amp;&amp; !moment(fechaFinal, formatoFecha).isSame(moment(fecha, formatoFecha)), fecha });
+    } catch (error) {
+      mensajeError(res, error.message);
+    }
+  },
+  fechaActual: async (req, res)=&gt; {
+    try {
+      const { formato } = req.query;
+      if (formato &amp;&amp; formato !== &apos;DD-MM-YYYY&apos; &amp;&amp; formato !== &apos;DD/MM/YYYY&apos; &amp;&amp; formato !== &apos;YYYY-MM-DD&apos; &amp;&amp; formato !== &apos;YYYY/MM/DD&apos;) {
+        throw new Error(&apos;No es un formato de fecha valido&apos;);
+      }
+      const formatoFecha = formato || &apos;DD/MM/YYYY&apos;;
+      mensajeExito(res,`La fecha actual es`, 200, moment().format(formatoFecha));
+    } catch (error) {
+      mensajeError(res, error.message);
+    }
+  },
+  busquedaTiempo:(req,res)=&gt;{
+    let anio=req.query.anio
+    let mes=req.query.mes
+    let dia=req.query.dia
+    let busqueda
+    if(anio){
+      busqueda=anio
+    }
+    if(anio &amp;&amp; mes){
+      busqueda=`${anio}-${mes}`
+    }
+    if(anio &amp;&amp; mes &amp;&amp; dia){
+      busqueda=`${anio}-${mes}-${dia}`
+    }
+    let re=new RegExp(busqueda,&apos;i&apos;)
+    Feriado.find({},&apos;fecha motivo&apos;)
+         .or({ fecha:{ $regex:re } })
+         .sort(&apos;fecha&apos;)
+         .exec((err,feriados)=&gt;{
+            if(err){
+              return res.status(400).json({
+                finalizado:false,
+                mensaje:`Error al buscar el registro ${busqueda}`,
+              })
+            }
+            if(feriados.length==0){
+              return res.status(400).json({
+                finalizado:false,
+                mensaje:`No se encontro el registro ${busqueda}`,
+              })
+            }
+            mensajeExito(res,`Se encontro registros con el patron ${busqueda}`,200,feriados)
+    })
+  },
+  crearFecha:(req,res)=&gt;{
+    let fecha=req.body.fecha
+    fecha=moment(fecha).format(&apos;YYYY-MM-DD&apos;)
+    let motivo=req.body.motivo.split(&quot;,&quot;)
+    let anio=moment(fecha).format(&apos;YYYY&apos;)
+    let feriado=new Feriado({
+      fecha:fecha,
+      motivo:motivo
+    });
+    A&#xF1;o.findOneAndUpdate({},{vacio:false},{new:true,runValidators:true},(err,feriadoDB)=&gt;{
+      if(err){
+        return res.status(400).json({
+          finalizado:false,
+          mensaje:`Error al modificar la fecha ${fecha}`,
+          datos:null
+        })
+      }
+    })
+    feriado.save((err,feriadoDB)=&gt;{
+      if(err){
+        return res.status(400).json({
+          finalizado:false,
+          mensaje:`La fecha ${fecha} ya existe`,
+          datos:null 
+        })
+      }
+      mensajeExito(res,`Se creo la fecha ${fecha} con exito`,200,feriadoDB)
+    });
+  },
+  modificarFecha:(req,res)=&gt;{
+    let fecha=req.query.fecha
+    //fecha=moment(fecha).format(&apos;YYYY-MM-DD&apos;)
+    let body=req.body
+    let descFeriado={
+      motivo:body.motivo
+    };
+    Feriado.findOneAndUpdate({fecha:fecha},descFeriado,{new:true,runValidators:true},(err,feriadoDB)=&gt;{
+      if(err){
+        return res.status(400).json({
+          finalizado:false,
+          mensaje:`Error al modificar la fecha ${fecha}`,
+          datos:null
+        })
+      }
+      if(!feriadoDB){
+        return res.status(400).json({
+          finalizado:false,
+          mensaje:`No se encontro la fecha ${fecha}`,
+          datos:null
+        })
+      }
+      mensajeExito(res,`Se modifico la fecha ${fecha} con exito`,200,feriadoDB)
+    })
+  },
+  eliminarFecha:(req,res)=&gt;{
+    let busqueda=req.query.fecha
+    busqueda=moment(busqueda).format(&apos;YYYY-MM-DD&apos;)
+    //console.log(busqueda)
+    Feriado.findOneAndDelete({fecha:busqueda},(err,feriadoBorrado)=&gt;{
+      if(err){
+        return res.status(400).json({
+          finalizado:false,
+          mensaje:`Error al eliminar la fecha ${fecha}`,
+          datos:null
+        })
+      }
+      if(!feriadoBorrado){
+        return res.status(400).json({
+          finalizado:false,
+          mensaje:`No se encontro la fecha ${busqueda}`,
+          datos:null
+        })
+      }
+      mensajeExito(res,`Se elimino la fecha ${busqueda} con exito`,200,feriadoBorrado)
+    })
+  },
+  listarGestiones:(req,res)=&gt;{
+    A&#xF1;o.find()
+        .sort(&apos;gestion&apos;)
+        .exec((err,a&#xF1;os)=&gt;{
+                if(err){
+                  return res.status(400).json({
+                    finalizado:false,
+                    mensaje:`Error al listar las gestiones`,
+                  })
+                }
+                mensajeExito(res,`Lista de gestiones`,200,a&#xF1;os)
+            })
+  },
+  eliminarGestion:(req,res)=&gt;{
+    let anio=req.query.anio;
+    A&#xF1;o.findOneAndDelete({gestion:anio},(err,a&#xF1;oBorrado)=&gt;{
+      if(err){
+        return res.status(400).json({
+          finalizado:false,
+          mensaje:`Error al eliminar la gestion ${anio}`,
+          datos:null
+        })
+      }
+      if(!a&#xF1;oBorrado){
+        return res.status(400).json({
+          finalizado:false,
+          mensaje:`No se encontro la gestion ${anio}`,
+          datos:null
+        })
+      }
+      let re=new RegExp(anio,&apos;i&apos;)
+      for(let i=1;i&lt;=1000;i++){
+        Feriado.find()
+             .or({ fecha:{ $regex:re } })
+             .remove()
+             .exec((error)=&gt;{
+                if(error){
+                mensajeError(res,error.message,400)
+                }
+           })
+      }
+      mensajeExito(res,`Se elimino la gestion ${anio} con exito`,200,a&#xF1;oBorrado)
+    })
+  },
+  comprobarStatus:(req,res)=&gt;{
+    if(res.status(200)){
+      return res.json({
+        finalizado:true,
+        mensaje:&quot;Api disponible&quot; 
+      })
+    }
+    else{
+      return res.json({
+        finalizado:false,
+        mensaje:&quot;Api dado de baja&quot;,
+      })
+    }
+  }
+}</code></pre>
+
+</div>
+
+<footer class="footer">
+  Generated by <a href="https://esdoc.org">ESDoc<span data-ice="esdocVersion">(1.1.0)</span><img src="./image/esdoc-logo-mini-black.png"></a>
+</footer>
+
+<script src="script/search_index.js"></script>
+<script src="script/search.js"></script>
+<script src="script/pretty-print.js"></script>
+<script src="script/inherited-summary.js"></script>
+<script src="script/test-summary.js"></script>
+<script src="script/inner-link.js"></script>
+<script src="script/patch-for-local.js"></script>
+</body>
+</html>

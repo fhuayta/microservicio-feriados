@@ -1,0 +1,1781 @@
+[
+  {
+    "__docId__": 1,
+    "kind": "external",
+    "name": "Infinity",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Infinity",
+    "memberof": "server/.external-ecmascript.js",
+    "static": true,
+    "longname": "server/.external-ecmascript.js~Infinity",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 2,
+    "kind": "external",
+    "name": "NaN",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/NaN",
+    "memberof": "server/.external-ecmascript.js",
+    "static": true,
+    "longname": "server/.external-ecmascript.js~NaN",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 3,
+    "kind": "external",
+    "name": "undefined",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined",
+    "memberof": "server/.external-ecmascript.js",
+    "static": true,
+    "longname": "server/.external-ecmascript.js~undefined",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 4,
+    "kind": "external",
+    "name": "null",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/null",
+    "memberof": "server/.external-ecmascript.js",
+    "static": true,
+    "longname": "server/.external-ecmascript.js~null",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 5,
+    "kind": "external",
+    "name": "Object",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object",
+    "memberof": "server/.external-ecmascript.js",
+    "static": true,
+    "longname": "server/.external-ecmascript.js~Object",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 6,
+    "kind": "external",
+    "name": "object",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object",
+    "memberof": "server/.external-ecmascript.js",
+    "static": true,
+    "longname": "server/.external-ecmascript.js~object",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 7,
+    "kind": "external",
+    "name": "Function",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function",
+    "memberof": "server/.external-ecmascript.js",
+    "static": true,
+    "longname": "server/.external-ecmascript.js~Function",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 8,
+    "kind": "external",
+    "name": "function",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function",
+    "memberof": "server/.external-ecmascript.js",
+    "static": true,
+    "longname": "server/.external-ecmascript.js~function",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 9,
+    "kind": "external",
+    "name": "Boolean",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean",
+    "memberof": "server/.external-ecmascript.js",
+    "static": true,
+    "longname": "server/.external-ecmascript.js~Boolean",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 10,
+    "kind": "external",
+    "name": "boolean",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean",
+    "memberof": "server/.external-ecmascript.js",
+    "static": true,
+    "longname": "server/.external-ecmascript.js~boolean",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 11,
+    "kind": "external",
+    "name": "Symbol",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Symbol",
+    "memberof": "server/.external-ecmascript.js",
+    "static": true,
+    "longname": "server/.external-ecmascript.js~Symbol",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 12,
+    "kind": "external",
+    "name": "Error",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Error",
+    "memberof": "server/.external-ecmascript.js",
+    "static": true,
+    "longname": "server/.external-ecmascript.js~Error",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 13,
+    "kind": "external",
+    "name": "EvalError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/EvalError",
+    "memberof": "server/.external-ecmascript.js",
+    "static": true,
+    "longname": "server/.external-ecmascript.js~EvalError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 14,
+    "kind": "external",
+    "name": "InternalError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/InternalError",
+    "memberof": "server/.external-ecmascript.js",
+    "static": true,
+    "longname": "server/.external-ecmascript.js~InternalError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 15,
+    "kind": "external",
+    "name": "RangeError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RangeError",
+    "memberof": "server/.external-ecmascript.js",
+    "static": true,
+    "longname": "server/.external-ecmascript.js~RangeError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 16,
+    "kind": "external",
+    "name": "ReferenceError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/ReferenceError",
+    "memberof": "server/.external-ecmascript.js",
+    "static": true,
+    "longname": "server/.external-ecmascript.js~ReferenceError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 17,
+    "kind": "external",
+    "name": "SyntaxError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/SyntaxError",
+    "memberof": "server/.external-ecmascript.js",
+    "static": true,
+    "longname": "server/.external-ecmascript.js~SyntaxError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 18,
+    "kind": "external",
+    "name": "TypeError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/TypeError",
+    "memberof": "server/.external-ecmascript.js",
+    "static": true,
+    "longname": "server/.external-ecmascript.js~TypeError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 19,
+    "kind": "external",
+    "name": "URIError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/URIError",
+    "memberof": "server/.external-ecmascript.js",
+    "static": true,
+    "longname": "server/.external-ecmascript.js~URIError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 20,
+    "kind": "external",
+    "name": "Number",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number",
+    "memberof": "server/.external-ecmascript.js",
+    "static": true,
+    "longname": "server/.external-ecmascript.js~Number",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 21,
+    "kind": "external",
+    "name": "number",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number",
+    "memberof": "server/.external-ecmascript.js",
+    "static": true,
+    "longname": "server/.external-ecmascript.js~number",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 22,
+    "kind": "external",
+    "name": "Date",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date",
+    "memberof": "server/.external-ecmascript.js",
+    "static": true,
+    "longname": "server/.external-ecmascript.js~Date",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 23,
+    "kind": "external",
+    "name": "String",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String",
+    "memberof": "server/.external-ecmascript.js",
+    "static": true,
+    "longname": "server/.external-ecmascript.js~String",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 24,
+    "kind": "external",
+    "name": "string",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String",
+    "memberof": "server/.external-ecmascript.js",
+    "static": true,
+    "longname": "server/.external-ecmascript.js~string",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 25,
+    "kind": "external",
+    "name": "RegExp",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp",
+    "memberof": "server/.external-ecmascript.js",
+    "static": true,
+    "longname": "server/.external-ecmascript.js~RegExp",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 26,
+    "kind": "external",
+    "name": "Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array",
+    "memberof": "server/.external-ecmascript.js",
+    "static": true,
+    "longname": "server/.external-ecmascript.js~Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 27,
+    "kind": "external",
+    "name": "Int8Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Int8Array",
+    "memberof": "server/.external-ecmascript.js",
+    "static": true,
+    "longname": "server/.external-ecmascript.js~Int8Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 28,
+    "kind": "external",
+    "name": "Uint8Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint8Array",
+    "memberof": "server/.external-ecmascript.js",
+    "static": true,
+    "longname": "server/.external-ecmascript.js~Uint8Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 29,
+    "kind": "external",
+    "name": "Uint8ClampedArray",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint8ClampedArray",
+    "memberof": "server/.external-ecmascript.js",
+    "static": true,
+    "longname": "server/.external-ecmascript.js~Uint8ClampedArray",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 30,
+    "kind": "external",
+    "name": "Int16Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Int16Array",
+    "memberof": "server/.external-ecmascript.js",
+    "static": true,
+    "longname": "server/.external-ecmascript.js~Int16Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 31,
+    "kind": "external",
+    "name": "Uint16Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint16Array",
+    "memberof": "server/.external-ecmascript.js",
+    "static": true,
+    "longname": "server/.external-ecmascript.js~Uint16Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 32,
+    "kind": "external",
+    "name": "Int32Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Int32Array",
+    "memberof": "server/.external-ecmascript.js",
+    "static": true,
+    "longname": "server/.external-ecmascript.js~Int32Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 33,
+    "kind": "external",
+    "name": "Uint32Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint32Array",
+    "memberof": "server/.external-ecmascript.js",
+    "static": true,
+    "longname": "server/.external-ecmascript.js~Uint32Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 34,
+    "kind": "external",
+    "name": "Float32Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Float32Array",
+    "memberof": "server/.external-ecmascript.js",
+    "static": true,
+    "longname": "server/.external-ecmascript.js~Float32Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 35,
+    "kind": "external",
+    "name": "Float64Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Float64Array",
+    "memberof": "server/.external-ecmascript.js",
+    "static": true,
+    "longname": "server/.external-ecmascript.js~Float64Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 36,
+    "kind": "external",
+    "name": "Map",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map",
+    "memberof": "server/.external-ecmascript.js",
+    "static": true,
+    "longname": "server/.external-ecmascript.js~Map",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 37,
+    "kind": "external",
+    "name": "Set",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Set",
+    "memberof": "server/.external-ecmascript.js",
+    "static": true,
+    "longname": "server/.external-ecmascript.js~Set",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 38,
+    "kind": "external",
+    "name": "WeakMap",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/WeakMap",
+    "memberof": "server/.external-ecmascript.js",
+    "static": true,
+    "longname": "server/.external-ecmascript.js~WeakMap",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 39,
+    "kind": "external",
+    "name": "WeakSet",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/WeakSet",
+    "memberof": "server/.external-ecmascript.js",
+    "static": true,
+    "longname": "server/.external-ecmascript.js~WeakSet",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 40,
+    "kind": "external",
+    "name": "ArrayBuffer",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/ArrayBuffer",
+    "memberof": "server/.external-ecmascript.js",
+    "static": true,
+    "longname": "server/.external-ecmascript.js~ArrayBuffer",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 41,
+    "kind": "external",
+    "name": "DataView",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/DataView",
+    "memberof": "server/.external-ecmascript.js",
+    "static": true,
+    "longname": "server/.external-ecmascript.js~DataView",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 42,
+    "kind": "external",
+    "name": "JSON",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON",
+    "memberof": "server/.external-ecmascript.js",
+    "static": true,
+    "longname": "server/.external-ecmascript.js~JSON",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 43,
+    "kind": "external",
+    "name": "Promise",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise",
+    "memberof": "server/.external-ecmascript.js",
+    "static": true,
+    "longname": "server/.external-ecmascript.js~Promise",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 44,
+    "kind": "external",
+    "name": "Generator",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Generator",
+    "memberof": "server/.external-ecmascript.js",
+    "static": true,
+    "longname": "server/.external-ecmascript.js~Generator",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 45,
+    "kind": "external",
+    "name": "GeneratorFunction",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/GeneratorFunction",
+    "memberof": "server/.external-ecmascript.js",
+    "static": true,
+    "longname": "server/.external-ecmascript.js~GeneratorFunction",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 46,
+    "kind": "external",
+    "name": "Reflect",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Reflect",
+    "memberof": "server/.external-ecmascript.js",
+    "static": true,
+    "longname": "server/.external-ecmascript.js~Reflect",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 47,
+    "kind": "external",
+    "name": "Proxy",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Proxy",
+    "memberof": "server/.external-ecmascript.js",
+    "static": true,
+    "longname": "server/.external-ecmascript.js~Proxy",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 48,
+    "kind": "file",
+    "name": "server/config/config.js",
+    "content": "const seeder=require('mongoose-seeder')\r\n//const data=require('../../data.json')\r\nconst Feriado=require('../models/feriado')\r\nconst Año=require('../models/feriado')\r\n//================\r\n// Puerto\r\n//================\r\nPORT=process.env.PORT || 3000;\r\n\r\n\r\n//================\r\n// Entorno\r\n//================\r\n\r\n\r\nNODE_ENV=process.env.NODE_ENV || 'development';\r\n\r\n//=======================\r\n// Token\r\n//=======================\r\n\r\nCaducidad_Token=Math.floor(Date.now()/1000)+(60 * 60)\r\n\r\n//=======================\r\n//Conexiones\r\n//=======================\r\n\r\nmongoUrl= 'mongodb://localhost:27017/Feriados';\r\n\r\n//=======================\r\n// Feriados\r\n//=======================\r\n\r\nmodule.exports={\r\n\t// si es un entero, es N dias antes de la fecha inicial \r\n  feriados: new Array(\r\n    {\r\n      fecha: \"01-01\",\r\n      motivo: [\"Año nuevo\",],\r\n    },\r\n    {\r\n      fecha: \"01-22\",\r\n      motivo: [\"Dia del Estado Plurinacional de Bolivia\",],\r\n    },\r\n    {\r\n      fecha: \"-48\",\r\n      motivo: [\"Lunes de Carnaval\",],\r\n    },\r\n    {\r\n      fecha: \"-47\",\r\n      motivo: [\"Martes de Carnaval\",],\r\n    },\r\n    {\r\n      fecha: \"-2\",\r\n      motivo: [\"Viernes Santo\",],\r\n    },\r\n    {\r\n      fecha: \"05-01\",\r\n      motivo: [\"Dia del trabajo\",],\r\n    },\r\n    {\r\n      fecha: \"-\",\r\n      motivo: [\"Corpus Christi\",], // fecha inicial\r\n    },\r\n    {\r\n      fecha: \"06-21\",\r\n      motivo: [\"Aymara Amazonico\",],\r\n    },\r\n    {\r\n      fecha: \"08-06\",\r\n      motivo: [\"Dia de la Independencia de Bolivia\",],\r\n    },\r\n    {\r\n      fecha: \"11-02\",\r\n      motivo: [\"Dia de Todos los Difuntos\",],\r\n    },\r\n    {\r\n      fecha: \"12-25\",\r\n      motivo: [\"Navidad\",],\r\n    }\r\n  ),\r\n  mongoUrl\r\n}",
+    "static": true,
+    "longname": "/home/itancara/Documents/code/BPM/agetic-bpm-feriados/server/config/config.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 49,
+    "kind": "variable",
+    "name": "seeder",
+    "memberof": "server/config/config.js",
+    "static": true,
+    "longname": "server/config/config.js~seeder",
+    "access": "public",
+    "export": false,
+    "importPath": "07.restserver/server/config/config.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 1,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 50,
+    "kind": "variable",
+    "name": "Feriado",
+    "memberof": "server/config/config.js",
+    "static": true,
+    "longname": "server/config/config.js~Feriado",
+    "access": "public",
+    "export": false,
+    "importPath": "07.restserver/server/config/config.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 3,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 51,
+    "kind": "variable",
+    "name": "Año",
+    "memberof": "server/config/config.js",
+    "static": true,
+    "longname": "server/config/config.js~Año",
+    "access": "public",
+    "export": false,
+    "importPath": "07.restserver/server/config/config.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 4,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 52,
+    "kind": "file",
+    "name": "server/controller/feriado.js",
+    "content": "const {feriados,meses} = require('../config/config')\r\nconst {Feriado,Año} = require('../models/feriado')\r\nconst moment=require('moment')\r\nconst { mensajeError, mensajeExito }=require('../utils/handleResponse')\r\nmoment.locale('es')\r\nvar _ = require('lodash')\r\n\r\nconst _sumarDiasFecha = async (fecha, dias) => {\r\n  let formatoFecha = 'DD/MM/YYYY';\r\n  const existeFeriados = await Año.findOne({ gestion: moment(fecha, formatoFecha).format('YYYY') });\r\n  if (!existeFeriados) {\r\n    throw new Error('No se generó la lista de feriados para ese año.')\r\n  }\r\n  let feriados = await Feriado.find({}, { fecha: 1 });\r\n  if (feriados && feriados.length <= 0) {\r\n    throw new Error('No existe la lista de feriados.');\r\n  }\r\n  let cont = 0;\r\n  feriados = feriados.map(x => moment(x.fecha, 'YYYY-MM-DD').format('DD/MM/YYYY'));\r\n  while (dias > cont) {\r\n    fecha = moment(fecha, formatoFecha).add(1, 'days');\r\n    fecha = moment(fecha).format(formatoFecha);\r\n    console.log('==========================_MENSAJE_A_MOSTRARSE_==========================');\r\n    console.log(feriados.includes(fecha), fecha, moment(fecha, 'DD/MM/YYYY').day(), moment(fecha, 'DD/MM/YYYY').day());\r\n    console.log('==========================_MENSAJE_A_MOSTRARSE_==========================');\r\n    if (feriados.includes(fecha) || moment(fecha, 'DD/MM/YYYY').day() === 6 || moment(fecha, 'DD/MM/YYYY').day() === 0) {\r\n    } else {\r\n      cont ++;\r\n    }\r\n  }\r\n  return fecha\r\n}\r\n\r\nmodule.exports={\r\n  fechaInicial: async (req, res) => {\r\n    const anio=req.query.anio\r\n    const vacio=req.query.vacio \r\n      const fecha_inicial = (anio) => {\r\n        let p_m = 24\r\n        let p_n = 5\r\n        let p_a, p_b, p_c, p_d, p_e, p_dia, p_mes\r\n        p_a = anio % 19\r\n        p_b = anio % 4\r\n        p_c = anio % 7\r\n        p_d = (19 * p_a + p_m) % 30\r\n        p_e = (2 * p_b + 4 * p_c + 6 * p_d + p_n) % 7\r\n        if ((p_d + p_e) < 10) {\r\n          p_dia = p_d + p_e + 22\r\n          p_mes = 3\r\n        } else {\r\n          p_dia = p_d + p_e - 9\r\n          p_mes = 4\r\n        }\r\n        if (p_dia == 26 && p_mes == 4) {\r\n          p_dia = 19\r\n        } else if (p_dia == 25 && p_mes == 4 && p_d == 28 && p_e == 6 && p_a > 10) {\r\n          p_dia = 18\r\n        }\r\n        let fechaCalculada = moment(`${anio}/${p_mes}/${p_dia}`).format('YYYY-MM-DD')\r\n        return fechaCalculada\r\n      }\r\n    \r\n/*      const fecha_inicial= (anio) =>{\r\n        let p_a,p_b,p_c,p_d,p_e,p_f,p_g,p_h,p_i,p_k,p_l,p_m,p_n,mes,dia\r\n        p_a=anio%19\r\n        p_b=(anio-(anio%100))/100\r\n        p_c=anio%100\r\n        p_d=(p_b-(p_b%4))/4\r\n        p_e=p_b%4\r\n        p_f=((p_b+8)-((p_b+8)%25))/25\r\n        p_g=((p_b+p_f+1)-((p_b+p_f+1)%3))/3\r\n        p_h=((19*p_a)+p_b+p_d+p_g+15)%30\r\n        p_i=(p_c-(p_c%4))/4\r\n        p_k=p_c%4\r\n        p_l=(32+(2*p_e)+(2*p_i)-p_h-p_k)%7\r\n        p_m=((p_a+(11*p_h)+(22*p_l))-((p_a+(11*p_h)+(22*p_l))%451))/451\r\n        p_n=p_h+p_l+-(7*p_m)+114\r\n        mes=(p_n-(p_n%31))/31\r\n        dia=1+(p_n%31)\r\n        let fecha_calculada=moment(`${anio}-${mes}-${dia}`).add(7,'day').format('YYYY-MM-DD')\r\n        return fecha_calculada\r\n      }\r\n**/\r\n      let copia_feriados=_.clone(feriados)\r\n      let fechaCalculada = fecha_inicial(anio)\r\n      const listaFeriados = (feriados) => {\r\n        const nuevosFeriados = []\r\n        for (let item of feriados) {\r\n          const fecha = moment(`${anio}-${item.fecha}`)\r\n          if (!fecha.isValid()) {\r\n            if (item.fecha == '-') {\r\n              nuevosFeriados.push(moment(fechaCalculada).subtract(1, 'year').add(2, 'month').add(1, 'year').subtract(1, 'day').format('YYYY-MM-DD') )\r\n            } else {\r\n              nuevosFeriados.push(moment(fechaCalculada).subtract(parseInt(item.fecha.substring(1, item.fecha.length)), 'days').format('YYYY-MM-DD') )\r\n            }\r\n          } else {\r\n            nuevosFeriados.push(moment(`${anio}-${item.fecha}`).format('YYYY-MM-DD') )\r\n          }\r\n        }\r\n        return nuevosFeriados\r\n      }\r\n      let nuevosFeriados = listaFeriados(copia_feriados)\r\n      const soloFeriadosHabiles = (copia_feriados) => {\r\n        let nuevosFeriados = []\r\n        for (let feriado of copia_feriados) {\r\n          if ( moment(feriado).format('dddd') == 'Sunday') {\r\n            feriado = moment(feriado).add(1, 'day').format('YYYY-MM-DD')\r\n          }\r\n          nuevosFeriados.push(feriado)\r\n        }\r\n        return nuevosFeriados\r\n      }\r\n      let nuevosFeriados_1 = soloFeriadosHabiles(nuevosFeriados)\r\n      let i=0\r\n      let copia_feriados_1=[]\r\n      let dia_festivo\r\n      for(let copia_feriado of copia_feriados){\r\n          dia_festivo=new Object()\r\n          dia_festivo.fecha=nuevosFeriados_1[i]\r\n          dia_festivo.motivo=copia_feriado.motivo\r\n          copia_feriados_1.push(dia_festivo)\r\n          i=i+1\r\n      }\r\n      let feriado;\r\n      if(vacio){\r\n        let gestion=new Año({\r\n          gestion: anio,\r\n          vacio:vacio\r\n        });\r\n        gestion.save((err,añoDB)=>{\r\n          if(err){\r\n            return res.status(400).json({\r\n              finalizado:false,\r\n              mensaje:`El año ${anio} ya existe`,\r\n              datos:null \r\n            })\r\n          }\r\n          mensajeExito(res,`Se creo la gestion ${anio}`,200,añoDB)  \r\n        })  \r\n      }\r\n      else{\r\n        let gestion=new Año({\r\n          gestion: anio,\r\n          vacio:false\r\n        });\r\n        gestion.save((err,añoDB)=>{\r\n          if(err){\r\n            return res.status(400).json({\r\n              finalizado:false,\r\n              mensaje:`El año ${anio} ya existe`,\r\n              datos:null \r\n            })\r\n          }\r\n          for(let item of copia_feriados_1){\r\n            feriado=new Feriado({\r\n                fecha:item.fecha,\r\n                motivo:item.motivo\r\n            });\r\n            feriado.save((error,feriadoDB)=>{\r\n              if(error){\r\n                return res.status(400).json({\r\n                  finalizado:false,\r\n                  mensaje:`la fecha ${item.fecha} ya existe`\r\n                });\r\n              }\r\n            });\r\n          }\r\n          res.json({\r\n            finalizado:true,\r\n            mensaje:`Se creo el calendario de la gestion ${anio}`,\r\n            datos:añoDB\r\n          })\r\n        })\r\n      }\r\n  },\r\n  listarFeriados: async (req, res)=> {\r\n    try {\r\n      const feriados = await Feriado.find({}, { fecha: 1, motivo: 1 });\r\n      if (feriados && feriados.length <= 0) {\r\n        throw new Error('No existe la lista de feriados.');\r\n      }\r\n      mensajeExito(res,`Se genero la lista de feriados`,200,feriados)\r\n    } catch (error) { \r\n      mensajeError(res, error.message);\r\n    }\r\n  },\r\n  restarFechas: async (req, res) => {\r\n    try {\r\n      const { fechaInicial, fechaFinal, diasPorAnio, diasPorMes } = req.query;\r\n      const formatoFecha = 'DD/MM/YYYY';\r\n      if (!moment(fechaInicial, formatoFecha).isValid() || !moment(fechaFinal, formatoFecha).isValid()) {\r\n        throw new Error('La fecha inicial o final no es valida.')\r\n      }\r\n      if (moment(fechaFinal, formatoFecha).isBefore(moment(fechaInicial, formatoFecha))) {\r\n        throw new Error('La fecha inicial no puede ser mayor a la fecha final.')\r\n      }\r\n      if (!diasPorAnio || !diasPorMes) {\r\n        throw new Error('Debe enviar el estimado de dias por anio y por mes.')\r\n      }\r\n      let datosFinales = {\r\n        dias: 0,\r\n        meses: 0,\r\n        anios: 0,\r\n        totalDias: 0\r\n      }\r\n      datosFinales.dias = datosFinales.totalDias = moment(fechaFinal, formatoFecha).diff(moment(fechaInicial, formatoFecha), 'days');\r\n      datosFinales.anios = Math.floor(datosFinales.dias/diasPorAnio);\r\n      datosFinales.dias = Math.floor(datosFinales.dias - (datosFinales.anios * diasPorAnio));\r\n      datosFinales.meses = Math.floor(datosFinales.dias/diasPorMes);\r\n      datosFinales.dias = Math.floor(datosFinales.dias - (datosFinales.meses * diasPorMes));\r\n      mensajeExito(res,`Fecha calculada correctamente`, 200, datosFinales);\r\n    } catch (error) { \r\n      mensajeError(res, error.message);\r\n    }\r\n  },\r\n  sumarDias: async (req, res)=> {\r\n    try {\r\n      let { fecha } = req.query;\r\n      const { dias } = req.params;\r\n      fecha = moment(fecha, 'DD/MM/YYYY').add(dias, 'days');\r\n      fecha = moment(fecha).format('DD/MM/YYYY');\r\n      mensajeExito(res,`Fecha calculada correctamente`, 200, fecha);\r\n    } catch (error) { \r\n      mensajeError(res, error.message);\r\n    }\r\n  },\r\n  compararDias: async (req, res)=> {\r\n    try {\r\n      const { fechaInicial, fechaFinal, dias, calendario } = req.query;\r\n      const formatoFecha = 'DD/MM/YYYY';\r\n      if (!moment(fechaInicial, formatoFecha).isValid() || !moment(fechaFinal, formatoFecha).isValid()) {\r\n        throw new Error('La fecha inicial o final no es valida.')\r\n      }\r\n      if (moment(fechaFinal, formatoFecha).isBefore(moment(fechaInicial, formatoFecha))) {\r\n        throw new Error('La fecha inicial no puede ser mayor a la fecha final.')\r\n      }\r\n      let fecha = ''\r\n      if (calendario) {\r\n        fecha = moment(fechaInicial, 'DD/MM/YYYY').add(dias, 'days');\r\n        fecha = moment(fecha).format('DD/MM/YYYY');\r\n      } else {\r\n        fecha = await _sumarDiasFecha(fechaInicial, dias);\r\n      }\r\n      console.log('==========================_MENSAJE_A_MOSTRARSE_==========================');\r\n      console.log( 'fechaInicial: ', fechaInicial, 'fechaFinal: ', fechaFinal, 'fechaCalculada: ', fecha, moment(fechaFinal, formatoFecha).isBefore(moment(fecha, formatoFecha)), moment(fechaFinal, formatoFecha).isSame(moment(fecha, formatoFecha)));\r\n      console.log('==========================_MENSAJE_A_MOSTRARSE_==========================');\r\n      mensajeExito(res,`Fecha calculada correctamente`, 200, { cumple: !moment(fechaFinal, formatoFecha).isBefore(moment(fecha, formatoFecha)) && !moment(fechaFinal, formatoFecha).isSame(moment(fecha, formatoFecha)), fecha });\r\n    } catch (error) {\r\n      mensajeError(res, error.message);\r\n    }\r\n  },\r\n  fechaActual: async (req, res)=> {\r\n    try {\r\n      const { formato } = req.query;\r\n      if (formato && formato !== 'DD-MM-YYYY' && formato !== 'DD/MM/YYYY' && formato !== 'YYYY-MM-DD' && formato !== 'YYYY/MM/DD') {\r\n        throw new Error('No es un formato de fecha valido');\r\n      }\r\n      const formatoFecha = formato || 'DD/MM/YYYY';\r\n      mensajeExito(res,`La fecha actual es`, 200, moment().format(formatoFecha));\r\n    } catch (error) {\r\n      mensajeError(res, error.message);\r\n    }\r\n  },\r\n  busquedaTiempo:(req,res)=>{\r\n    let anio=req.query.anio\r\n    let mes=req.query.mes\r\n    let dia=req.query.dia\r\n    let busqueda\r\n    if(anio){\r\n      busqueda=anio\r\n    }\r\n    if(anio && mes){\r\n      busqueda=`${anio}-${mes}`\r\n    }\r\n    if(anio && mes && dia){\r\n      busqueda=`${anio}-${mes}-${dia}`\r\n    }\r\n    let re=new RegExp(busqueda,'i')\r\n    Feriado.find({},'fecha motivo')\r\n         .or({ fecha:{ $regex:re } })\r\n         .sort('fecha')\r\n         .exec((err,feriados)=>{\r\n            if(err){\r\n              return res.status(400).json({\r\n                finalizado:false,\r\n                mensaje:`Error al buscar el registro ${busqueda}`,\r\n              })\r\n            }\r\n            if(feriados.length==0){\r\n              return res.status(400).json({\r\n                finalizado:false,\r\n                mensaje:`No se encontro el registro ${busqueda}`,\r\n              })\r\n            }\r\n            mensajeExito(res,`Se encontro registros con el patron ${busqueda}`,200,feriados)\r\n    })\r\n  },\r\n  crearFecha:(req,res)=>{\r\n    let fecha=req.body.fecha\r\n    fecha=moment(fecha).format('YYYY-MM-DD')\r\n    let motivo=req.body.motivo.split(\",\")\r\n    let anio=moment(fecha).format('YYYY')\r\n    let feriado=new Feriado({\r\n      fecha:fecha,\r\n      motivo:motivo\r\n    });\r\n    Año.findOneAndUpdate({},{vacio:false},{new:true,runValidators:true},(err,feriadoDB)=>{\r\n      if(err){\r\n        return res.status(400).json({\r\n          finalizado:false,\r\n          mensaje:`Error al modificar la fecha ${fecha}`,\r\n          datos:null\r\n        })\r\n      }\r\n    })\r\n    feriado.save((err,feriadoDB)=>{\r\n      if(err){\r\n        return res.status(400).json({\r\n          finalizado:false,\r\n          mensaje:`La fecha ${fecha} ya existe`,\r\n          datos:null \r\n        })\r\n      }\r\n      mensajeExito(res,`Se creo la fecha ${fecha} con exito`,200,feriadoDB)\r\n    });\r\n  },\r\n  modificarFecha:(req,res)=>{\r\n    let fecha=req.query.fecha\r\n    //fecha=moment(fecha).format('YYYY-MM-DD')\r\n    let body=req.body\r\n    let descFeriado={\r\n      motivo:body.motivo\r\n    };\r\n    Feriado.findOneAndUpdate({fecha:fecha},descFeriado,{new:true,runValidators:true},(err,feriadoDB)=>{\r\n      if(err){\r\n        return res.status(400).json({\r\n          finalizado:false,\r\n          mensaje:`Error al modificar la fecha ${fecha}`,\r\n          datos:null\r\n        })\r\n      }\r\n      if(!feriadoDB){\r\n        return res.status(400).json({\r\n          finalizado:false,\r\n          mensaje:`No se encontro la fecha ${fecha}`,\r\n          datos:null\r\n        })\r\n      }\r\n      mensajeExito(res,`Se modifico la fecha ${fecha} con exito`,200,feriadoDB)\r\n    })\r\n  },\r\n  eliminarFecha:(req,res)=>{\r\n    let busqueda=req.query.fecha\r\n    busqueda=moment(busqueda).format('YYYY-MM-DD')\r\n    //console.log(busqueda)\r\n    Feriado.findOneAndDelete({fecha:busqueda},(err,feriadoBorrado)=>{\r\n      if(err){\r\n        return res.status(400).json({\r\n          finalizado:false,\r\n          mensaje:`Error al eliminar la fecha ${fecha}`,\r\n          datos:null\r\n        })\r\n      }\r\n      if(!feriadoBorrado){\r\n        return res.status(400).json({\r\n          finalizado:false,\r\n          mensaje:`No se encontro la fecha ${busqueda}`,\r\n          datos:null\r\n        })\r\n      }\r\n      mensajeExito(res,`Se elimino la fecha ${busqueda} con exito`,200,feriadoBorrado)\r\n    })\r\n  },\r\n  listarGestiones:(req,res)=>{\r\n    Año.find()\r\n        .sort('gestion')\r\n        .exec((err,años)=>{\r\n                if(err){\r\n                  return res.status(400).json({\r\n                    finalizado:false,\r\n                    mensaje:`Error al listar las gestiones`,\r\n                  })\r\n                }\r\n                mensajeExito(res,`Lista de gestiones`,200,años)\r\n            })\r\n  },\r\n  eliminarGestion:(req,res)=>{\r\n    let anio=req.query.anio;\r\n    Año.findOneAndDelete({gestion:anio},(err,añoBorrado)=>{\r\n      if(err){\r\n        return res.status(400).json({\r\n          finalizado:false,\r\n          mensaje:`Error al eliminar la gestion ${anio}`,\r\n          datos:null\r\n        })\r\n      }\r\n      if(!añoBorrado){\r\n        return res.status(400).json({\r\n          finalizado:false,\r\n          mensaje:`No se encontro la gestion ${anio}`,\r\n          datos:null\r\n        })\r\n      }\r\n      let re=new RegExp(anio,'i')\r\n      for(let i=1;i<=1000;i++){\r\n        Feriado.find()\r\n             .or({ fecha:{ $regex:re } })\r\n             .remove()\r\n             .exec((error)=>{\r\n                if(error){\r\n                mensajeError(res,error.message,400)\r\n                }\r\n           })\r\n      }\r\n      mensajeExito(res,`Se elimino la gestion ${anio} con exito`,200,añoBorrado)\r\n    })\r\n  },\r\n  comprobarStatus:(req,res)=>{\r\n    if(res.status(200)){\r\n      return res.json({\r\n        finalizado:true,\r\n        mensaje:\"Api disponible\" \r\n      })\r\n    }\r\n    else{\r\n      return res.json({\r\n        finalizado:false,\r\n        mensaje:\"Api dado de baja\",\r\n      })\r\n    }\r\n  }\r\n}",
+    "static": true,
+    "longname": "/home/itancara/Documents/code/BPM/agetic-bpm-feriados/server/controller/feriado.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 53,
+    "kind": "variable",
+    "name": "feriados",
+    "memberof": "server/controller/feriado.js",
+    "static": true,
+    "longname": "server/controller/feriado.js~feriados",
+    "access": "public",
+    "export": false,
+    "importPath": "07.restserver/server/controller/feriado.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 1,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 54,
+    "kind": "variable",
+    "name": "Feriado",
+    "memberof": "server/controller/feriado.js",
+    "static": true,
+    "longname": "server/controller/feriado.js~Feriado",
+    "access": "public",
+    "export": false,
+    "importPath": "07.restserver/server/controller/feriado.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 2,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 55,
+    "kind": "variable",
+    "name": "moment",
+    "memberof": "server/controller/feriado.js",
+    "static": true,
+    "longname": "server/controller/feriado.js~moment",
+    "access": "public",
+    "export": false,
+    "importPath": "07.restserver/server/controller/feriado.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 3,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 56,
+    "kind": "variable",
+    "name": "mensajeError",
+    "memberof": "server/controller/feriado.js",
+    "static": true,
+    "longname": "server/controller/feriado.js~mensajeError",
+    "access": "public",
+    "export": false,
+    "importPath": "07.restserver/server/controller/feriado.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 4,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 57,
+    "kind": "variable",
+    "name": "_",
+    "memberof": "server/controller/feriado.js",
+    "static": true,
+    "longname": "server/controller/feriado.js~_",
+    "access": "private",
+    "export": false,
+    "importPath": "07.restserver/server/controller/feriado.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 6,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 58,
+    "kind": "function",
+    "name": "_sumarDiasFecha",
+    "memberof": "server/controller/feriado.js",
+    "generator": false,
+    "async": true,
+    "static": true,
+    "longname": "server/controller/feriado.js~_sumarDiasFecha",
+    "access": "private",
+    "export": false,
+    "importPath": "07.restserver/server/controller/feriado.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 8,
+    "undocument": true,
+    "params": [
+      {
+        "name": "fecha",
+        "types": [
+          "*"
+        ]
+      },
+      {
+        "name": "dias",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 59,
+    "kind": "file",
+    "name": "server/fixtures/data/data.js",
+    "content": "const id = require('pow-mongodb-fixtures').createObjectId\nconst años=[\n    {\n        _id:id(),\n        gestion:\"2018\",\n        vacio:false\n    },\n]\nconst feriados=[\n    {\n        _id:id(),\n        fecha: \"2018-01-01\",\n        motivo: [\"Año nuevo\"],\n\n    },\n    {\n        _id:id(),\n        fecha: \"2018-01-22\",\n        motivo: [\"Dia del Estado Plurinacional de Bolivia\"],\n\n    },\n    {\n        _id:id(),\n        fecha: \"2018-02-12\",\n        motivo: [\"Lunes de Carnaval\"],\n\n    },\n    {\n        _id:id(),\n        fecha: \"2018-02-13\",\n        motivo: [\"Martes de Carnaval\"],\n\n    },\n    {\n        _id:id(),\n        fecha: \"2018-03-30\",\n        motivo: [\"Viernes Santo\"],\n\n    },\n    {\n        _id:id(),\n        fecha: \"2018-05-01\",\n        motivo: [\"Dia del trabajo\"],\n\n    },\n    {\n        _id:id(),\n        fecha: \"2018-06-21\",\n        motivo: [\"Corpus Christi\"], \n\n    },\n    {\n        _id:id(),\n        fecha: \"2018-08-21\",\n        motivo: [\"Aymara Amazonico\"],\n\n    },\n    {\n        _id:id(),\n        fecha: \"2018-08-06\",\n        motivo: [\"Dia de la Independencia de Bolivia\"],\n\n    },\n    {\n        _id:id(),\n        fecha: \"2018-11-02\",\n        motivo: [\"Dia de Todos los Difuntos\"],\n\n    },\n    {\n        _id:id(),\n        fecha: \"2018-12-25\",\n        motivo: [\"Navidad\"],\n\n    }\n]\nmodule.exports={\n    años,\n    feriados\n}\n",
+    "static": true,
+    "longname": "/home/itancara/Documents/code/BPM/agetic-bpm-feriados/server/fixtures/data/data.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 60,
+    "kind": "variable",
+    "name": "id",
+    "memberof": "server/fixtures/data/data.js",
+    "static": true,
+    "longname": "server/fixtures/data/data.js~id",
+    "access": "public",
+    "export": false,
+    "importPath": "07.restserver/server/fixtures/data/data.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 1,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 61,
+    "kind": "variable",
+    "name": "años",
+    "memberof": "server/fixtures/data/data.js",
+    "static": true,
+    "longname": "server/fixtures/data/data.js~años",
+    "access": "public",
+    "export": false,
+    "importPath": "07.restserver/server/fixtures/data/data.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 2,
+    "undocument": true,
+    "type": {
+      "types": [
+        "undefined[]"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 62,
+    "kind": "variable",
+    "name": "feriados",
+    "memberof": "server/fixtures/data/data.js",
+    "static": true,
+    "longname": "server/fixtures/data/data.js~feriados",
+    "access": "public",
+    "export": false,
+    "importPath": "07.restserver/server/fixtures/data/data.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 9,
+    "undocument": true,
+    "type": {
+      "types": [
+        "undefined[]"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 63,
+    "kind": "file",
+    "name": "server/fixtures/index.js",
+    "content": "const debug = require('debug')('bpm:fixtures')\nconst mongoose = require('mongoose')\nconst path = require('path')\nconst {mongoUrl} = require('../config/config')\nconst inquirer = require('inquirer')\n// const { exec } = require('child_process')\nconst prompt = inquirer.createPromptModule()\nconst{años,feriados}=require('../fixtures/data/data')\nconst MongoClient = require('mongodb').MongoClient;\n\n// Promesa para cargar los fixtures\nfunction loadFixtures(xmongoUrl, fixtures_path) {\n  return new Promise(async resolve => {\n    const fixtures = await require('pow-mongodb-fixtures').connect(xmongoUrl)\n    await fixtures.load(path.join(__dirname, fixtures_path), err => {\n      if (err) {\n        console.log('========================================_MENSAJE_A_MOSTRARSE_========================================')\n        console.log(err);\n        console.log('=====================================================================================================')\n        throw 'Error al cargar fixtures'\n      } else {\n        resolve()\n      }\n    })\n    await MongoClient.connect(xmongoUrl, async function(err, client) {\n      const nameDB = xmongoUrl.split('/').pop()\n      const db = client.db(nameDB);\n      await db.command( { create: \"feriados\", viewOn: \"feriado\", pipeline: feriados});\n      await db.command( { create: \"years\", viewOn: \"year\", pipeline: years});\n      client.close();\n    });\n  })\n}\n\n// Funcion para borrar y crear la base de datos\nasync function cleanDatabase (xmongoUrl){\n    try {\n      const conn = await mongoose.connect(xmongoUrl)\n      await conn.connection.db.dropDatabase()\n      const allModels = await require('../models/feriado')\n      debug('Cargando Modelos de Schema: \\n%o', allModels)\n    } catch (error) {\n      debug('No se puede establecer conexion con la base de datos', error) \n    }\n}\n\n// Funcion principal para cargar fixtures basado en la variable de entorno\n// NODE_ENV en producion, development o test\nasync function start () {\n  const node_env =  NODE_ENV\n  if (node_env === 'production' || node_env === 'development') {\n    const answer = await prompt([{\n      type: 'confirm',\n      name: 'setup',\n      message: 'Este proceso destruira tu base de datos, usted esta seguro?'\n    }])\n    if (!answer.setup){\n      return console.log('Accion cancelada')\n    }\n  }\n  await cleanDatabase(mongoUrl)\n  await loadFixtures(mongoUrl, 'data/')\n  process.exit(0)\n}\n\n// El Proceso se esta ejecutando desde la terminal\nif (!module.parent){\n  start()\n}\n\nmodule.exports = start",
+    "static": true,
+    "longname": "/home/itancara/Documents/code/BPM/agetic-bpm-feriados/server/fixtures/index.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 64,
+    "kind": "variable",
+    "name": "debug",
+    "memberof": "server/fixtures/index.js",
+    "static": true,
+    "longname": "server/fixtures/index.js~debug",
+    "access": "public",
+    "export": false,
+    "importPath": "07.restserver/server/fixtures/index.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 1,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 65,
+    "kind": "variable",
+    "name": "mongoose",
+    "memberof": "server/fixtures/index.js",
+    "static": true,
+    "longname": "server/fixtures/index.js~mongoose",
+    "access": "public",
+    "export": false,
+    "importPath": "07.restserver/server/fixtures/index.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 2,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 66,
+    "kind": "variable",
+    "name": "path",
+    "memberof": "server/fixtures/index.js",
+    "static": true,
+    "longname": "server/fixtures/index.js~path",
+    "access": "public",
+    "export": false,
+    "importPath": "07.restserver/server/fixtures/index.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 3,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 67,
+    "kind": "variable",
+    "name": "mongoUrl",
+    "memberof": "server/fixtures/index.js",
+    "static": true,
+    "longname": "server/fixtures/index.js~mongoUrl",
+    "access": "public",
+    "export": false,
+    "importPath": "07.restserver/server/fixtures/index.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 4,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 68,
+    "kind": "variable",
+    "name": "inquirer",
+    "memberof": "server/fixtures/index.js",
+    "static": true,
+    "longname": "server/fixtures/index.js~inquirer",
+    "access": "public",
+    "export": false,
+    "importPath": "07.restserver/server/fixtures/index.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 5,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 69,
+    "kind": "variable",
+    "name": "prompt",
+    "memberof": "server/fixtures/index.js",
+    "static": true,
+    "longname": "server/fixtures/index.js~prompt",
+    "access": "public",
+    "export": false,
+    "importPath": "07.restserver/server/fixtures/index.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 7,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 70,
+    "kind": "variable",
+    "name": "años",
+    "memberof": "server/fixtures/index.js",
+    "static": true,
+    "longname": "server/fixtures/index.js~años",
+    "access": "public",
+    "export": false,
+    "importPath": "07.restserver/server/fixtures/index.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 8,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 71,
+    "kind": "variable",
+    "name": "MongoClient",
+    "memberof": "server/fixtures/index.js",
+    "static": true,
+    "longname": "server/fixtures/index.js~MongoClient",
+    "access": "public",
+    "export": false,
+    "importPath": "07.restserver/server/fixtures/index.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 9,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 72,
+    "kind": "function",
+    "name": "loadFixtures",
+    "memberof": "server/fixtures/index.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "server/fixtures/index.js~loadFixtures",
+    "access": "public",
+    "export": false,
+    "importPath": "07.restserver/server/fixtures/index.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 12,
+    "undocument": true,
+    "params": [
+      {
+        "name": "xmongoUrl",
+        "types": [
+          "*"
+        ]
+      },
+      {
+        "name": "fixtures_path",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 73,
+    "kind": "function",
+    "name": "cleanDatabase",
+    "memberof": "server/fixtures/index.js",
+    "generator": false,
+    "async": true,
+    "static": true,
+    "longname": "server/fixtures/index.js~cleanDatabase",
+    "access": "public",
+    "export": false,
+    "importPath": "07.restserver/server/fixtures/index.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 36,
+    "undocument": true,
+    "params": [
+      {
+        "name": "xmongoUrl",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": null,
+    "ignore": true
+  },
+  {
+    "__docId__": 74,
+    "kind": "function",
+    "name": "start",
+    "memberof": "server/fixtures/index.js",
+    "generator": false,
+    "async": true,
+    "static": true,
+    "longname": "server/fixtures/index.js~start",
+    "access": "public",
+    "export": false,
+    "importPath": "07.restserver/server/fixtures/index.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 49,
+    "undocument": true,
+    "params": [],
+    "return": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 75,
+    "kind": "file",
+    "name": "server/midleware/feriado.js",
+    "content": "'use strict'\r\nconst {feriados}=require('../config/config')\r\nconst feriado=require('../controller/feriado')\r\nconst {Año,Feriado}=require('../models/feriado')\r\nconst {Caducidad_Token}=require('../config/config')\r\n//=============================\r\n// Verificar Token\r\n//=============================\r\n\r\nlet verificaToken = (req, res, next) => {\r\n\r\n    let token = req.get('token');\r\n\r\n    jwt.verify(token, process.env.SEED, (err, decoded) => {\r\n\r\n        if (err) {\r\n            return res.status(401).json({\r\n                ok: false,\r\n                err: {\r\n                    message: 'Token no válido'\r\n                }\r\n            });\r\n        }\r\n        req.año = decoded.año;\r\n        next();\r\n    });\r\n};\r\n\r\nmodule.exports={\r\n\t\r\n}\r\n",
+    "static": true,
+    "longname": "/home/itancara/Documents/code/BPM/agetic-bpm-feriados/server/midleware/feriado.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 76,
+    "kind": "variable",
+    "name": "feriados",
+    "memberof": "server/midleware/feriado.js",
+    "static": true,
+    "longname": "server/midleware/feriado.js~feriados",
+    "access": "public",
+    "export": false,
+    "importPath": "07.restserver/server/midleware/feriado.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 2,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 77,
+    "kind": "variable",
+    "name": "feriado",
+    "memberof": "server/midleware/feriado.js",
+    "static": true,
+    "longname": "server/midleware/feriado.js~feriado",
+    "access": "public",
+    "export": false,
+    "importPath": "07.restserver/server/midleware/feriado.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 3,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 78,
+    "kind": "variable",
+    "name": "Año",
+    "memberof": "server/midleware/feriado.js",
+    "static": true,
+    "longname": "server/midleware/feriado.js~Año",
+    "access": "public",
+    "export": false,
+    "importPath": "07.restserver/server/midleware/feriado.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 4,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 79,
+    "kind": "variable",
+    "name": "Caducidad_Token",
+    "memberof": "server/midleware/feriado.js",
+    "static": true,
+    "longname": "server/midleware/feriado.js~Caducidad_Token",
+    "access": "public",
+    "export": false,
+    "importPath": "07.restserver/server/midleware/feriado.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 5,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 80,
+    "kind": "function",
+    "name": "verificaToken",
+    "memberof": "server/midleware/feriado.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "server/midleware/feriado.js~verificaToken",
+    "access": "public",
+    "export": false,
+    "importPath": "07.restserver/server/midleware/feriado.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 10,
+    "undocument": true,
+    "params": [
+      {
+        "name": "req",
+        "types": [
+          "*"
+        ]
+      },
+      {
+        "name": "res",
+        "types": [
+          "*"
+        ]
+      },
+      {
+        "name": "next",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": null,
+    "ignore": true
+  },
+  {
+    "__docId__": 81,
+    "kind": "file",
+    "name": "server/models/feriado.js",
+    "content": "const mongoose = require('mongoose');\r\nconst Schema = mongoose.Schema;\r\n\r\n\r\nlet feriadoSchema = new Schema({\r\n    fecha: { type: String, required: [true, 'La fecha es necesario'] ,unique:true },\r\n    motivo: { type: Array, required: [true, 'El nombre de la fecha es necesario'] },\r\n});\r\n\r\nlet añoSchema = new Schema({\r\n    gestion: { type: String, required: [true, 'El año es necesario'] ,unique:true },\r\n    vacio: {type: Boolean,default:true}\r\n});\r\n\r\nlet Feriado=mongoose.model('Feriado', feriadoSchema);\r\nlet Año=mongoose.model('Año', añoSchema);\r\n\r\nmodule.exports={\r\n    Feriado,\r\n    Año\r\n}\r\n",
+    "static": true,
+    "longname": "/home/itancara/Documents/code/BPM/agetic-bpm-feriados/server/models/feriado.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 82,
+    "kind": "variable",
+    "name": "mongoose",
+    "memberof": "server/models/feriado.js",
+    "static": true,
+    "longname": "server/models/feriado.js~mongoose",
+    "access": "public",
+    "export": false,
+    "importPath": "07.restserver/server/models/feriado.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 1,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 83,
+    "kind": "variable",
+    "name": "Schema",
+    "memberof": "server/models/feriado.js",
+    "static": true,
+    "longname": "server/models/feriado.js~Schema",
+    "access": "public",
+    "export": false,
+    "importPath": "07.restserver/server/models/feriado.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 2,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 84,
+    "kind": "variable",
+    "name": "feriadoSchema",
+    "memberof": "server/models/feriado.js",
+    "static": true,
+    "longname": "server/models/feriado.js~feriadoSchema",
+    "access": "public",
+    "export": false,
+    "importPath": "07.restserver/server/models/feriado.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 5,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 85,
+    "kind": "variable",
+    "name": "añoSchema",
+    "memberof": "server/models/feriado.js",
+    "static": true,
+    "longname": "server/models/feriado.js~añoSchema",
+    "access": "public",
+    "export": false,
+    "importPath": "07.restserver/server/models/feriado.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 10,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 86,
+    "kind": "variable",
+    "name": "Feriado",
+    "memberof": "server/models/feriado.js",
+    "static": true,
+    "longname": "server/models/feriado.js~Feriado",
+    "access": "public",
+    "export": false,
+    "importPath": "07.restserver/server/models/feriado.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 15,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 87,
+    "kind": "variable",
+    "name": "Año",
+    "memberof": "server/models/feriado.js",
+    "static": true,
+    "longname": "server/models/feriado.js~Año",
+    "access": "public",
+    "export": false,
+    "importPath": "07.restserver/server/models/feriado.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 16,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 88,
+    "kind": "file",
+    "name": "server/routes/feriado.js",
+    "content": "'use strict'\r\nconst express=require('express');\r\nconst app=express();\r\n//const _=require('underscore');\r\nconst {\r\n  fechaInicial,\r\n  listarFeriados,\r\n  busquedaTiempo,\r\n  crearFecha,\r\n  modificarFecha,\r\n  eliminarFecha,\r\n  comprobarStatus,\r\n  sumarDias,\r\n  compararDias,\r\n  fechaActual,\r\n  restarFechas\r\n} = require('../controller/feriado')\r\n\r\n//===========================\r\n// Lista de Feriados\r\n//===========================\r\napp.get('/api/v1/feriados',listarFeriados);\r\n\r\n//==============================\r\n// Lista de Feriados por gestion\r\n//==============================\r\napp.get('/api/v1/feriados/fecha',busquedaTiempo);\r\n\r\n//==============================\r\n// Busqueda por gestion y mes\r\n//==============================\r\napp.get('/api/v1/feriados/fecha',busquedaTiempo);\r\n\r\n//==============================\r\n// Busqueda por gestion, mes y dia\r\n//==============================\r\napp.get('/api/v1/feriados/fecha',busquedaTiempo);\r\n\r\n//=====================================\r\n// Generacion del calendario por gestion\r\n//=====================================\r\napp.post('/api/v1/feriados/gestion',fechaInicial);\r\n\r\n//=====================================\r\n// Generacion de la gestion en cero\r\n//=====================================\r\napp.post('/api/v1/feriados/gestion',fechaInicial);\r\n\r\n//==========================\r\n// Crear una Fecha\r\n//==========================\r\napp.post('/api/v1/feriados',crearFecha);\r\n//==========================\r\n// Modificar una fecha\r\n//===========================\r\napp.put('/api/v1/feriados/modificar',modificarFecha);\r\n//==========================\r\n// Borrar un Feriado\r\n//==========================\r\napp.delete('/api/v1/feriados/borrar',eliminarFecha);\r\n\r\n//==========================\r\n// \tComprobar status de la API\r\n//==========================\r\n\r\napp.get('/api/v1/status',comprobarStatus)\r\n\r\n// Suma dias a una fecha indicada\r\napp.get('/api/v1/fechas/:dias', sumarDias);\r\n\r\n// Verifica si entre 2 fechas existe una cantidad de dias especificada\r\napp.get('/api/v1/fechas', compararDias);\r\n\r\n// Devuelve la fecha actual del servidor\r\napp.get('/api/v1/fecha-actual', fechaActual);\r\n\r\n// Devuelve la diferencia entre dos fechas dadas\r\napp.get('/api/v1/fechas/restar/fechas', restarFechas);\r\n\r\nmodule.exports=app;",
+    "static": true,
+    "longname": "/home/itancara/Documents/code/BPM/agetic-bpm-feriados/server/routes/feriado.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 89,
+    "kind": "variable",
+    "name": "express",
+    "memberof": "server/routes/feriado.js",
+    "static": true,
+    "longname": "server/routes/feriado.js~express",
+    "access": "public",
+    "export": false,
+    "importPath": "07.restserver/server/routes/feriado.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 2,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 90,
+    "kind": "variable",
+    "name": "app",
+    "memberof": "server/routes/feriado.js",
+    "static": true,
+    "longname": "server/routes/feriado.js~app",
+    "access": "public",
+    "export": false,
+    "importPath": "07.restserver/server/routes/feriado.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 3,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 91,
+    "kind": "variable",
+    "name": "fechaInicial",
+    "memberof": "server/routes/feriado.js",
+    "static": true,
+    "longname": "server/routes/feriado.js~fechaInicial",
+    "access": "public",
+    "export": false,
+    "importPath": "07.restserver/server/routes/feriado.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 5,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 92,
+    "kind": "file",
+    "name": "server/routes/gestion.js",
+    "content": "'use strict'\nconst express=require('express');\nconst app=express();\n//const _=require('underscore');\nconst {listarGestiones,eliminarGestion}=require('../controller/feriado')\n\n//=============================\n// Listar todas las Gestiones\n//=============================\n\napp.get('/api/v1/feriados/anio',listarGestiones);\n\n//==========================\n// Borrar una Gestion\n//==========================\n\napp.delete('/api/v1/feriados/gestion',eliminarGestion);\nmodule.exports=app;\n",
+    "static": true,
+    "longname": "/home/itancara/Documents/code/BPM/agetic-bpm-feriados/server/routes/gestion.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 93,
+    "kind": "variable",
+    "name": "express",
+    "memberof": "server/routes/gestion.js",
+    "static": true,
+    "longname": "server/routes/gestion.js~express",
+    "access": "public",
+    "export": false,
+    "importPath": "07.restserver/server/routes/gestion.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 2,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 94,
+    "kind": "variable",
+    "name": "app",
+    "memberof": "server/routes/gestion.js",
+    "static": true,
+    "longname": "server/routes/gestion.js~app",
+    "access": "public",
+    "export": false,
+    "importPath": "07.restserver/server/routes/gestion.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 3,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 95,
+    "kind": "variable",
+    "name": "listarGestiones",
+    "memberof": "server/routes/gestion.js",
+    "static": true,
+    "longname": "server/routes/gestion.js~listarGestiones",
+    "access": "public",
+    "export": false,
+    "importPath": "07.restserver/server/routes/gestion.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 5,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 96,
+    "kind": "file",
+    "name": "server/routes/index.js",
+    "content": "const express=require('express');\r\nconst app=express();\r\n\r\napp.use(require('./feriado'));\r\napp.use(require('./gestion'));\r\n\r\nmodule.exports=app;",
+    "static": true,
+    "longname": "/home/itancara/Documents/code/BPM/agetic-bpm-feriados/server/routes/index.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 97,
+    "kind": "variable",
+    "name": "express",
+    "memberof": "server/routes/index.js",
+    "static": true,
+    "longname": "server/routes/index.js~express",
+    "access": "public",
+    "export": false,
+    "importPath": "07.restserver/server/routes/index.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 1,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 98,
+    "kind": "variable",
+    "name": "app",
+    "memberof": "server/routes/index.js",
+    "static": true,
+    "longname": "server/routes/index.js~app",
+    "access": "public",
+    "export": false,
+    "importPath": "07.restserver/server/routes/index.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 2,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 99,
+    "kind": "file",
+    "name": "server/server.js",
+    "content": "'use strict'\r\nrequire('./config/config');\r\nconst express=require('express');\r\nconst mongoose=require('mongoose');\r\nconst app=express();\r\nconst bodyParser=require('body-parser');\r\nconst morgan = require('morgan')\r\n//x-www-form-urlencoded\r\napp.use(morgan('combined'));\r\napp.use(bodyParser.urlencoded({extended: false}));\r\n//json\r\napp.use(bodyParser.json());\r\n\r\n//routes\r\napp.use(require('./routes/index'));\r\n//app.use(express.static(path.resolve(__dirname,'../public')))\r\n\r\nmongoose.connect('mongodb://localhost:27017/Feriados',(err)=>{\r\n\tif(err) throw err;\r\n\tconsole.log('Base de datos en el aire');\r\n});\r\napp.listen(PORT,()=>{\r\n\tconsole.log(\"Escuchando el puerto \",PORT);\r\n});",
+    "static": true,
+    "longname": "/home/itancara/Documents/code/BPM/agetic-bpm-feriados/server/server.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 100,
+    "kind": "variable",
+    "name": "express",
+    "memberof": "server/server.js",
+    "static": true,
+    "longname": "server/server.js~express",
+    "access": "public",
+    "export": false,
+    "importPath": "07.restserver/server/server.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 3,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 101,
+    "kind": "variable",
+    "name": "mongoose",
+    "memberof": "server/server.js",
+    "static": true,
+    "longname": "server/server.js~mongoose",
+    "access": "public",
+    "export": false,
+    "importPath": "07.restserver/server/server.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 4,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 102,
+    "kind": "variable",
+    "name": "app",
+    "memberof": "server/server.js",
+    "static": true,
+    "longname": "server/server.js~app",
+    "access": "public",
+    "export": false,
+    "importPath": "07.restserver/server/server.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 5,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 103,
+    "kind": "variable",
+    "name": "bodyParser",
+    "memberof": "server/server.js",
+    "static": true,
+    "longname": "server/server.js~bodyParser",
+    "access": "public",
+    "export": false,
+    "importPath": "07.restserver/server/server.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 6,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 104,
+    "kind": "variable",
+    "name": "morgan",
+    "memberof": "server/server.js",
+    "static": true,
+    "longname": "server/server.js~morgan",
+    "access": "public",
+    "export": false,
+    "importPath": "07.restserver/server/server.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 7,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 105,
+    "kind": "file",
+    "name": "server/utils/handleResponse.js",
+    "content": "\nmodule.exports={\n    mensajeExito: (res, mensajeExito, codigo, datos, next) => {\n        if (next) next();\n        const codigoEnviar = codigo ? codigo : 200;\n        return res.status(codigoEnviar).json({\n            finalizado: true,\n            mensaje: mensajeExito,\n            datos: datos ? datos : null,\n          });\n      },\n    mensajeError: (res, mensajeError, codigo,datos,next) => {       \n        if(next) next();\n        const codigoEnviar = codigo ? codigo : 400;\n        /*if (typeof mensajeError === 'object' && mensajeError.errors) {\n            mensajeError = (mensajeError.errors.map((x) => x.message)).join(\", \");\n        } else if (mensajeError.message) {\n            mensajeError = mensajeError.message;\n        }**/\n        return res.status(codigoEnviar).json({\n            finalizado: false,\n            mensaje: mensajeError,\n            datos: datos ? datos: null\n        });\n    }\n}",
+    "static": true,
+    "longname": "/home/itancara/Documents/code/BPM/agetic-bpm-feriados/server/utils/handleResponse.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "kind": "index",
+    "content": "## Modo de funcionamiento\n\nPara el funcionamiento de la aplicacion tenemos las siguientes rutas:\n\n## Listar Fecha\n\nCon esta funcion GET nosotros podemos listar todas ñas fechas agregadas.\n\n    http://localhost:3000/api/v1/feriados\n\n.. Nota: Una fecha puede tener mas de una celebracion. Para agregar mas de una celebracion debe colocar una coma entre cada celebracion.\n\n## Agregar Fecha\n\nCon esta funcion POST podemos visualizar las fechas de forma generica.\n\n    http://localhost:3000/api/v1/feriados\n\nSe deben agregar los siguientes campos:\n\n    * fecha. La fecha como tal\n\n    * motivo. El motivo o feriado que se esta celebrando en esa fecha.\n\n## Modificar una Fecha\n\nCon est funcion PUT podemos modificar una fecha.\n\n    http://localhost:3000/api/v1/feriados/modificar\n\nDonde se puede modificar el motivo de la fecha.\n\n## Busqueda de una Fecha\n\nCon esta funcion GET podemos hacer la busqueda de una fecha\n\n    http://localhost:3000/api/v1/feriados/dia\n\nParametros en entrada:\n\n    *anio. Año\n\n    *mes. Mes\n\n    *dia. Dia\nSe debe colocar en ese orden los paranetros\n\n## Busqueda por Gestion y Mes\n\nCon esta funcion GET podemos buscar los feriados por la gestion y por mes \n\n    http://localhost:3000/api/v1/feriados/mes'\n\nParametros en entrada:\n\n    *anio. Año\n\n    *mes. Mes\n\nSe debe colocar en ese orden los paranetros\n\n## Listar Calendario por Gestion\n\nCon esta funcion GET podemos visualizar todo el calendario de feriados de toda una gestion, poniendo como parametro el año.\n\n    http://localhost:3000/api/v1/feriados/anio\n\nParametros en entrada:\n\n    *anio . Año\n\n## Dar de Baja una Fecha   \n\nCon esta funcion DELETE hacemos el borrado de una fecha. Manejamos una variable public para hacer que nuestra fecha sea visible. Si modificamo esa variable entonces esta solo se hara no publica.\n\n    http://localhost:3000/api/v1/feriados/borrar\n\n## Generar Calendario por Gestion\n\nEsta funcion POST es la mas bonita. Con esta generamos el calendario de toda una gestion colocando como parametro de entrada el año en cuestion.\n\n    http://localhost:3000/api/v1/feriados/gestion\n\ndonde debemos introducir estos parametros:\n\n    *anio. Es el año de la gestion que queremos generar.\n\n## Crear una Gestion en Cero\n\nCon esta funcion  POST podemos crar una gestion sin feriados.\n\n    http://localhost:3000/api/v1/feriados/gestion\n\ndonde debemos introducir estos parametros:\n\n    *anio. Es el año de la gestion que queremos generar.\n\n    *vacio. Se debe colocar true para que generemos el calendario vacio.\n\n## Listar Gestiones\n\nCon esta funcion GET podemos visualizar todas las gestiones.\n\n    http://localhost:3000/api/v1/feriados/anio\n\n## Borrar Toda una gestion\n\nCon esta funcion DELETE podemos borrar toda una gestion, incluido el año y sus feriados respectivos.\n\n    http://localhost:3000/api/v1/feriados/gestion\n\n\n## Status\n\nEsta funcion nos muestra si la api esta disponible o no\n\n    http://localhost:3000/api/v1/status\n",
+    "longname": "/home/itancara/Documents/code/BPM/agetic-bpm-feriados/README.md",
+    "name": "./README.md",
+    "static": true,
+    "access": "public"
+  },
+  {
+    "kind": "packageJSON",
+    "content": "{\n  \"name\": \"07.restserver\",\n  \"version\": \"1.0.0\",\n  \"description\": \"Restserver consumo de datos\",\n  \"main\": \"index.js\",\n  \"scripts\": {\n    \"test\": \"echo \\\"Error: no test specified\\\" && exit 1\",\n    \"start\": \"node server/server\",\n    \"esdoc\": \"./node_modules/.bin/esdoc -c esdoc.json && cp -r ./esdoc/manual/assets ./documentation/build/public/esdoc\",\n    \"dev\": \"nodemon server/server\",\n    \"seeders\": \"node server/fixtures/\"\n  },\n  \"author\": \"\",\n  \"license\": \"ISC\",\n  \"dependencies\": {\n    \"Math\": \"0.0.1-security\",\n    \"bcryptjs\": \"^2.4.3\",\n    \"body-parser\": \"^1.18.3\",\n    \"express\": \"^4.16.3\",\n    \"inquirer\": \"^6.2.0\",\n    \"jsonwebtoken\": \"^8.3.0\",\n    \"moment\": \"^2.22.2\",\n    \"mongodb\": \"^3.1.9\",\n    \"mongoose\": \"^5.2.16\",\n    \"mongoose-seeder\": \"^1.2.1\",\n    \"mongoose-unique-validator\": \"^2.0.2\",\n    \"morgan\": \"^1.9.1\",\n    \"nodemon\": \"^1.18.6\",\n    \"pow-mongodb-fixtures\": \"^0.14.0\",\n    \"requirer\": \"0.0.4\"\n  },\n  \"apidoc\": {\n    \"name\": \"APi Ejemplo\",\n    \"version\": \"0.1.0\",\n    \"description\": \"Apidoc ejemplo con consumo de resursos\",\n    \"title\": \"ApiDoc ejemplo\",\n    \"url\": \"http://localhost:3000\"\n  }\n}\n",
+    "longname": "/home/itancara/Documents/code/BPM/agetic-bpm-feriados/package.json",
+    "name": "package.json",
+    "static": true,
+    "access": "public"
+  },
+  {
+    "kind": "manualIndex",
+    "content": "# Inicio\n\n![alt text](assets/logo.png \"Logo\")\n\nContenido\n",
+    "longname": "/home/itancara/Documents/code/BPM/agetic-bpm-feriados/esdoc/manual/index.md",
+    "name": "./esdoc/manual/index.md",
+    "static": true,
+    "access": "public"
+  },
+  {
+    "kind": "manual",
+    "longname": "/home/itancara/Documents/code/BPM/agetic-bpm-feriados/esdoc/manual/pages/overview.md",
+    "name": "./esdoc/manual/pages/overview.md",
+    "content": "# Vista general\n\n![alt text](../assets/logo.png \"Logo\")\n\nContenido\n\n[Instalacion](./installation.html)\n\n[Manual de Uso](./tutorial.html)\n",
+    "static": true,
+    "access": "public"
+  },
+  {
+    "kind": "manual",
+    "longname": "/home/itancara/Documents/code/BPM/agetic-bpm-feriados/esdoc/manual/pages/installation.md",
+    "name": "./esdoc/manual/pages/installation.md",
+    "content": "# Instalación\n\n![alt text](../assets/logo.png \"Logo\")\n\n## Aplicacion de Feriados \n\nEsto es una aplicacion para poder crear, consultar, editar y generar un calendario de forma dinamica.\n\n## Prerequisitos:\n\n* Node.js 8.4 adelante\n\nAbrir la terminal y clonar el proyecto:\n    \n    git@gitlab.geo.gob.bo:agetic/agetic-bpm-feriados.git\n\n## Instalar las librerias\n\nInstalar las librerias usadas para este proyecto:\n\n    npm install\n\n\n## Seeders\n\nPara generar nuestros seeders ejecutamos el siguiente comando:\n\n    npm run seeders\n\n## Iniciar el proyecto\n\nPara inciar el proytecto corremos el siguiente comando:\n\n    npm start \n",
+    "static": true,
+    "access": "public"
+  },
+  {
+    "kind": "manual",
+    "longname": "/home/itancara/Documents/code/BPM/agetic-bpm-feriados/esdoc/manual/pages/tutorial.md",
+    "name": "./esdoc/manual/pages/tutorial.md",
+    "content": "# Tutorial\n\n![alt text](../assets/logo.png \"Logo\")\n\n## Modo de funcionamiento\n\nPara el funcionamiento de la aplicacion tenemos las siguientes rutas:\n\n## Listar Fecha\n\nCon esta funcion GET nosotros podemos listar todas ñas fechas agregadas.\n\n    http://localhost:3000/api/v1/feriados\n\n.. Nota: Una fecha puede tener mas de una celebracion. Para agregar mas de una celebracion debe colocar una coma entre cada celebracion.\n\n## Agregar Fecha\n\nCon esta funcion POST podemos visualizar las fechas de forma generica.\n\n    http://localhost:3000/api/v1/feriados\n\nSe deben agregar los siguientes campos:\n\n* fecha. La fecha que se quiere agregar. Preferentemente la fecha debe tener este formato:\n\n    año-mes-dia\n\n* motivo. El motivo o feriado que se esta celebrando en esa fecha.\n\n![alt text](../assets/post_fecha.png \"Crear Fecha\")\n\n## Modificar una Fecha\n\nCon est funcion PUT podemos modificar una fecha.\n\n    http://localhost:3000/api/v1/feriados/modificar\n\nDonde se puede modificar el motivo de la fecha.\n\n![alt text](../assets/put_fecha.png \"Modificar Fecha\")\n\n## Busqueda de una Fecha\n\nCon esta funcion GET podemos hacer la busqueda de una fecha\n\n    http://localhost:3000/api/v1/feriados/fecha\n\nParametros en entrada:\n\n* anio. Año\n\n* mes. Mes\n\n* dia. Dia\n\nSe debe colocar en ese orden los paranetros\n\n![alt text](../assets/get_anio_mes_dia.png \"Listar por Fecha\")\n\n## Busqueda por Gestion y Mes\n\nCon esta funcion GET podemos buscar los feriados por la gestion y por mes \n\n    http://localhost:3000/api/v1/feriados/fecha\n\nParametros en entrada:\n\n* anio. Año\n\n* mes. Mes\n\nSe debe colocar en ese orden los parametros\n\n![alt text](../assets/get_anio_mes.png \"Listar por Año y Mes\")\n\n## Listar Calendario por Gestion\n\nCon esta funcion GET podemos visualizar todo el calendario de feriados de toda una gestion, poniendo como parametro el año.\n\n    http://localhost:3000/api/v1/feriados/fecha\n\nParametros en entrada:\n\n* anio. Año\n\n![alt text](../assets/get_anio.png \"Listar por Gestion\")\n\n## Dar de Baja una Fecha   \n\nCon esta funcion DELETE hacemos el borrado de una fecha. Manejamos una variable public para hacer que nuestra fecha sea visible. Si modificamo esa variable entonces esta solo se hara no publica.\n\n    http://localhost:3000/api/v1/feriados/borrar\n\n## Generar Calendario por Gestion\n\nEsta funcion POST es la mas bonita. Con esta generamos el calendario de toda una gestion colocando como parametro de entrada el año en cuestion.\n\n    http://localhost:3000/api/v1/feriados/gestion\n\ndonde debemos introducir estos parametros:\n\n* anio. Es el año de la gestion que queremos generar.\n\n![alt text](../assets/post_anio.png \"Creacion de una Gestion\")\n\n## Crear una Gestion en Cero\n\nCon esta funcion  POST podemos crar una gestion sin feriados.\n\n    http://localhost:3000/api/v1/feriados/gestion\n\ndonde debemos introducir estos parametros:\n\n* anio. Es el año de la gestion que queremos generar.\n\n* vacio. Se debe colocar true para que generemos el calendario vacio.\n\n![alt text](../assets/post_anio_vacio.png \"Creacion de Gestion Vacio\")\n\n## Listar Gestiones\n\nCon esta funcion GET podemos visualizar todas las gestiones.\n\n    http://localhost:3000/api/v1/feriados/anio\n\n![alt text](../assets/get_gestion.png \"Listar Gestiones\")\n\n## Borrar Toda una gestion\n\nCon esta funcion DELETE podemos borrar toda una gestion, incluido el año y sus feriados respectivos.\n\n    http://localhost:3000/api/v1/feriados/gestion\n\n![alt text](../assets/delete_gestion.png \"Borrar Gestion\")\n\n## Status\n\nEsta funcion nos muestra si la api esta disponible o no\n\n    http://localhost:3000/api/v1/status\n",
+    "static": true,
+    "access": "public"
+  }
+]

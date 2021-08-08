@@ -1,0 +1,38 @@
+{
+    "source": "./server",
+    "destination": "./documentation/build/public/esdoc/",
+    "includes": ["\\.js$"],
+    "excludes": ["apidoc/template"],
+    "plugins": [
+      {
+        "name": "esdoc-publish-html-plugin",
+        "option": {
+          "template": "esdoc/template"
+        }
+      },
+      {
+        "name": "esdoc-standard-plugin",
+        "option": {
+          "undocumentIdentifier": { "enable": false },
+          "unexportedIdentifier": { "enable": true },
+          "lint": { "enable": true },
+          "coverage": { "enable": true },
+          "typeInference": { "enable": true },
+          "brand": {
+            "title": "Agetic BPM Feriados",
+            "description": "Api para obtener feriados del pais en general ",
+            "repository": "https://gitlab.geo.gob.bo/agetic/agetic-bpm-feriados",
+            "site": "https://gitlab.geo.gob.bo:agetic/agetic-bpm-feriados"
+          },
+          "manual": {
+            "index": "./esdoc/manual/index.md",
+            "files": [
+                "./esdoc/manual/pages/overview.md",
+                "./esdoc/manual/pages/installation.md",
+                "./esdoc/manual/pages/tutorial.md"
+              ]
+          }
+        }
+      }
+    ]
+  }

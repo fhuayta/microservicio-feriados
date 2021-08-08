@@ -1,0 +1,19 @@
+{
+  "buildPath": "doc/build",
+  "testPath": "doc/test",
+  "templatePath": "doc/template",
+  "compilePath": "doc/public",
+  "helpersPath": "doc/helpers",
+  "helpersType": "YAML",
+
+  "apiUrl": "http://localhost:4000",
+  "apiName": "Apidoc",
+  "apiVersion": "1.0.0",
+  "apiDescription": "<a href=\"../apidoc\" style=\"background-color: #0062cc;color:white;padding:10px;border-radius:20px;text-decoration:none;font-weight:bold\">APIDOC JS</a>",
+
+  "serverPort": 5000,
+  "serverPublic": "doc/public",
+  "serverRedirect": "./swagger",
+
+  "appPath": "index.js"
+}

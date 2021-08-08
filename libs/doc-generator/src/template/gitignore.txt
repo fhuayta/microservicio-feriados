@@ -1,0 +1,3 @@
+# agetic-bpm-doc-generator
+/doc/build
+/doc/public

@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <base data-ice="baseUrl" href="../">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title data-ice="title">Manual | Agetic BPM Feriados</title>
+  <link type="text/css" rel="stylesheet" href="css/style.css">
+  <link type="text/css" rel="stylesheet" href="css/prettify-tomorrow.css">
+  <script src="script/prettify/prettify.js"></script>
+  <script src="script/manual.js"></script>
+<meta name="description" content="Api para obtener feriados del pais en general "><meta property="twitter:card" content="summary"><meta property="twitter:title" content="Agetic BPM Feriados"><meta property="twitter:description" content="Api para obtener feriados del pais en general "></head>
+<body class="layout-container manual-root" data-ice="rootContainer">
+
+<header>
+  <a href="../swagger"> Inicio </a>
+  <a href="./manual/index.html" data-ice="manualHeaderLink">Manual</a>
+  <a href="identifiers.html">Referencias</a>
+  <a href="source.html">C&#xF3;digo fuente</a>
+  
+
+  <div class="search-box">
+  <span>
+    <img src="./image/search.png">
+    <span class="search-input-edge"></span><input class="search-input"><span class="search-input-edge"></span>
+  </span>
+    <ul class="search-result"></ul>
+  </div>
+<a href="https://gitlab.geo.gob.bo/agetic/agetic-bpm-feriados">Repository</a></header>
+
+<nav class="navigation" data-ice="nav"><div class="manual-toc-root">
+  
+<div data-ice="manual">
+    <ul class="manual-toc">
+      
+    <li data-ice="manualNav" class="indent-h1" data-link="manual/overview.html"><a href="manual/overview.html" data-ice="link">Vista general</a></li>
+</ul>
+  </div>
+<div data-ice="manual">
+    <ul class="manual-toc">
+      
+    <li data-ice="manualNav" class="indent-h1" data-link="manual/installation.html"><a href="manual/installation.html" data-ice="link">Instalaci&#xF3;n</a></li>
+<li data-ice="manualNav" class="indent-h2" data-link="manual/installation.html"><a href="manual/installation.html#aplicacion-de-feriados" data-ice="link">Aplicacion de Feriados</a></li>
+<li data-ice="manualNav" class="indent-h2" data-link="manual/installation.html"><a href="manual/installation.html#prerequisitos-" data-ice="link">Prerequisitos:</a></li>
+<li data-ice="manualNav" class="indent-h2" data-link="manual/installation.html"><a href="manual/installation.html#instalar-las-librerias" data-ice="link">Instalar las librerias</a></li>
+<li data-ice="manualNav" class="indent-h2" data-link="manual/installation.html"><a href="manual/installation.html#seeders" data-ice="link">Seeders</a></li>
+<li data-ice="manualNav" class="indent-h2" data-link="manual/installation.html"><a href="manual/installation.html#iniciar-el-proyecto" data-ice="link">Iniciar el proyecto</a></li>
+</ul>
+  </div>
+<div data-ice="manual">
+    <ul class="manual-toc">
+      
+    <li data-ice="manualNav" class="indent-h1" data-link="manual/tutorial.html"><a href="manual/tutorial.html" data-ice="link">Tutorial</a></li>
+<li data-ice="manualNav" class="indent-h2" data-link="manual/tutorial.html"><a href="manual/tutorial.html#modo-de-funcionamiento" data-ice="link">Modo de funcionamiento</a></li>
+<li data-ice="manualNav" class="indent-h2" data-link="manual/tutorial.html"><a href="manual/tutorial.html#listar-fecha" data-ice="link">Listar Fecha</a></li>
+<li data-ice="manualNav" class="indent-h2" data-link="manual/tutorial.html"><a href="manual/tutorial.html#agregar-fecha" data-ice="link">Agregar Fecha</a></li>
+<li data-ice="manualNav" class="indent-h2" data-link="manual/tutorial.html"><a href="manual/tutorial.html#modificar-una-fecha" data-ice="link">Modificar una Fecha</a></li>
+<li data-ice="manualNav" class="indent-h2" data-link="manual/tutorial.html"><a href="manual/tutorial.html#busqueda-de-una-fecha" data-ice="link">Busqueda de una Fecha</a></li>
+<li data-ice="manualNav" class="indent-h2" data-link="manual/tutorial.html"><a href="manual/tutorial.html#busqueda-por-gestion-y-mes" data-ice="link">Busqueda por Gestion y Mes</a></li>
+<li data-ice="manualNav" class="indent-h2" data-link="manual/tutorial.html"><a href="manual/tutorial.html#listar-calendario-por-gestion" data-ice="link">Listar Calendario por Gestion</a></li>
+<li data-ice="manualNav" class="indent-h2" data-link="manual/tutorial.html"><a href="manual/tutorial.html#dar-de-baja-una-fecha" data-ice="link">Dar de Baja una Fecha</a></li>
+<li data-ice="manualNav" class="indent-h2" data-link="manual/tutorial.html"><a href="manual/tutorial.html#generar-calendario-por-gestion" data-ice="link">Generar Calendario por Gestion</a></li>
+<li data-ice="manualNav" class="indent-h2" data-link="manual/tutorial.html"><a href="manual/tutorial.html#crear-una-gestion-en-cero" data-ice="link">Crear una Gestion en Cero</a></li>
+<li data-ice="manualNav" class="indent-h2" data-link="manual/tutorial.html"><a href="manual/tutorial.html#listar-gestiones" data-ice="link">Listar Gestiones</a></li>
+<li data-ice="manualNav" class="indent-h2" data-link="manual/tutorial.html"><a href="manual/tutorial.html#borrar-toda-una-gestion" data-ice="link">Borrar Toda una gestion</a></li>
+<li data-ice="manualNav" class="indent-h2" data-link="manual/tutorial.html"><a href="manual/tutorial.html#status" data-ice="link">Status</a></li>
+</ul>
+  </div>
+</div>
+</nav>
+
+<div class="content" data-ice="content"><div class="github-markdown" data-ice="content"><h1 id="instalaci&#xF3;n">Instalaci&#xF3;n</h1><p><img src="./manual/../assets/logo.png" alt="alt text" title="Logo"></p>
+<h2 id="aplicacion-de-feriados">Aplicacion de Feriados</h2><p>Esto es una aplicacion para poder crear, consultar, editar y generar un calendario de forma dinamica.</p>
+<h2 id="prerequisitos-">Prerequisitos:</h2><ul>
+<li>Node.js 8.4 adelante</li>
+</ul>
+<p>Abrir la terminal y clonar el proyecto:</p>
+<pre><code><code class="source-code prettyprint">git@gitlab.geo.gob.bo:agetic/agetic-bpm-feriados.git</code>
+</code></pre><h2 id="instalar-las-librerias">Instalar las librerias</h2><p>Instalar las librerias usadas para este proyecto:</p>
+<pre><code><code class="source-code prettyprint">npm install</code>
+</code></pre><h2 id="seeders">Seeders</h2><p>Para generar nuestros seeders ejecutamos el siguiente comando:</p>
+<pre><code><code class="source-code prettyprint">npm run seeders</code>
+</code></pre><h2 id="iniciar-el-proyecto">Iniciar el proyecto</h2><p>Para inciar el proytecto corremos el siguiente comando:</p>
+<pre><code><code class="source-code prettyprint">npm start </code>
+</code></pre></div>
+</div>
+
+<footer class="footer">
+  Generated by <a href="https://esdoc.org">ESDoc<span data-ice="esdocVersion">(1.1.0)</span><img src="./image/esdoc-logo-mini-black.png"></a>
+</footer>
+
+<script src="script/search_index.js"></script>
+<script src="script/search.js"></script>
+<script src="script/pretty-print.js"></script>
+<script src="script/inherited-summary.js"></script>
+<script src="script/test-summary.js"></script>
+<script src="script/inner-link.js"></script>
+<script src="script/patch-for-local.js"></script>
+</body>
+</html>

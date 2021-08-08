@@ -1,0 +1,16 @@
+{
+  "buildPath": "doc/build",
+  "testPath": "doc/test",
+  "templatePath": "doc/template",
+  "compilePath": "public/doc",
+  "helpersPath": "doc/helpers",
+  "helpersType": "YAML",
+  "apiUrl": "https://test.agetic.gob.bo/gobbo-api",
+  "apiName": "Apidoc - Portal Único",
+  "apiVersion": "1.0.0",
+  "apiDescription": "<a href=\"../apidoc/index.html\" style=\"background-color: #0062cc;color:white;padding:10px;border-radius:20px;text-decoration:none;font-weight:bold\">APIDOC JS</a>",
+  "serverPort": 5000,
+  "serverPublic": "public/doc",
+  "serverRedirect": "./swagger",
+  "appPath": "server/server.js"
+}

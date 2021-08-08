@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <base data-ice="baseUrl">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title data-ice="title">Home | Agetic BPM Feriados</title>
+  <link type="text/css" rel="stylesheet" href="css/style.css">
+  <link type="text/css" rel="stylesheet" href="css/prettify-tomorrow.css">
+  <script src="script/prettify/prettify.js"></script>
+  <script src="script/manual.js"></script>
+<meta name="description" content="Api para obtener feriados del pais en general "><meta property="twitter:card" content="summary"><meta property="twitter:title" content="Agetic BPM Feriados"><meta property="twitter:description" content="Api para obtener feriados del pais en general "></head>
+<body class="layout-container" data-ice="rootContainer">
+
+<header>
+  <a href="../swagger"> Inicio </a>
+  <a href="./manual/index.html" data-ice="manualHeaderLink">Manual</a>
+  <a href="identifiers.html">Referencias</a>
+  <a href="source.html">C&#xF3;digo fuente</a>
+  
+
+  <div class="search-box">
+  <span>
+    <img src="./image/search.png">
+    <span class="search-input-edge"></span><input class="search-input"><span class="search-input-edge"></span>
+  </span>
+    <ul class="search-result"></ul>
+  </div>
+<a href="https://gitlab.geo.gob.bo/agetic/agetic-bpm-feriados">Repository</a></header>
+
+<nav class="navigation" data-ice="nav"><div>
+  <ul>
+    
+  </ul>
+</div>
+</nav>
+
+<div class="content" data-ice="content"><div data-ice="index" class="github-markdown"><h2 id="modo-de-funcionamiento">Modo de funcionamiento</h2><p>Para el funcionamiento de la aplicacion tenemos las siguientes rutas:</p>
+<h2 id="listar-fecha">Listar Fecha</h2><p>Con esta funcion GET nosotros podemos listar todas &#xF1;as fechas agregadas.</p>
+<pre><code><code class="source-code prettyprint">http://localhost:3000/api/v1/feriados</code>
+</code></pre><p>.. Nota: Una fecha puede tener mas de una celebracion. Para agregar mas de una celebracion debe colocar una coma entre cada celebracion.</p>
+<h2 id="agregar-fecha">Agregar Fecha</h2><p>Con esta funcion POST podemos visualizar las fechas de forma generica.</p>
+<pre><code><code class="source-code prettyprint">http://localhost:3000/api/v1/feriados</code>
+</code></pre><p>Se deben agregar los siguientes campos:</p>
+<pre><code><code class="source-code prettyprint">* fecha. La fecha como tal
+
+* motivo. El motivo o feriado que se esta celebrando en esa fecha.</code>
+</code></pre><h2 id="modificar-una-fecha">Modificar una Fecha</h2><p>Con est funcion PUT podemos modificar una fecha.</p>
+<pre><code><code class="source-code prettyprint">http://localhost:3000/api/v1/feriados/modificar</code>
+</code></pre><p>Donde se puede modificar el motivo de la fecha.</p>
+<h2 id="busqueda-de-una-fecha">Busqueda de una Fecha</h2><p>Con esta funcion GET podemos hacer la busqueda de una fecha</p>
+<pre><code><code class="source-code prettyprint">http://localhost:3000/api/v1/feriados/dia</code>
+</code></pre><p>Parametros en entrada:</p>
+<pre><code><code class="source-code prettyprint">*anio. A&#xF1;o
+
+*mes. Mes
+
+*dia. Dia</code>
+</code></pre><p>Se debe colocar en ese orden los paranetros</p>
+<h2 id="busqueda-por-gestion-y-mes">Busqueda por Gestion y Mes</h2><p>Con esta funcion GET podemos buscar los feriados por la gestion y por mes </p>
+<pre><code><code class="source-code prettyprint">http://localhost:3000/api/v1/feriados/mes&apos;</code>
+</code></pre><p>Parametros en entrada:</p>
+<pre><code><code class="source-code prettyprint">*anio. A&#xF1;o
+
+*mes. Mes</code>
+</code></pre><p>Se debe colocar en ese orden los paranetros</p>
+<h2 id="listar-calendario-por-gestion">Listar Calendario por Gestion</h2><p>Con esta funcion GET podemos visualizar todo el calendario de feriados de toda una gestion, poniendo como parametro el a&#xF1;o.</p>
+<pre><code><code class="source-code prettyprint">http://localhost:3000/api/v1/feriados/anio</code>
+</code></pre><p>Parametros en entrada:</p>
+<pre><code><code class="source-code prettyprint">*anio . A&#xF1;o</code>
+</code></pre><h2 id="dar-de-baja-una-fecha">Dar de Baja una Fecha</h2><p>Con esta funcion DELETE hacemos el borrado de una fecha. Manejamos una variable public para hacer que nuestra fecha sea visible. Si modificamo esa variable entonces esta solo se hara no publica.</p>
+<pre><code><code class="source-code prettyprint">http://localhost:3000/api/v1/feriados/borrar</code>
+</code></pre><h2 id="generar-calendario-por-gestion">Generar Calendario por Gestion</h2><p>Esta funcion POST es la mas bonita. Con esta generamos el calendario de toda una gestion colocando como parametro de entrada el a&#xF1;o en cuestion.</p>
+<pre><code><code class="source-code prettyprint">http://localhost:3000/api/v1/feriados/gestion</code>
+</code></pre><p>donde debemos introducir estos parametros:</p>
+<pre><code><code class="source-code prettyprint">*anio. Es el a&#xF1;o de la gestion que queremos generar.</code>
+</code></pre><h2 id="crear-una-gestion-en-cero">Crear una Gestion en Cero</h2><p>Con esta funcion  POST podemos crar una gestion sin feriados.</p>
+<pre><code><code class="source-code prettyprint">http://localhost:3000/api/v1/feriados/gestion</code>
+</code></pre><p>donde debemos introducir estos parametros:</p>
+<pre><code><code class="source-code prettyprint">*anio. Es el a&#xF1;o de la gestion que queremos generar.
+
+*vacio. Se debe colocar true para que generemos el calendario vacio.</code>
+</code></pre><h2 id="listar-gestiones">Listar Gestiones</h2><p>Con esta funcion GET podemos visualizar todas las gestiones.</p>
+<pre><code><code class="source-code prettyprint">http://localhost:3000/api/v1/feriados/anio</code>
+</code></pre><h2 id="borrar-toda-una-gestion">Borrar Toda una gestion</h2><p>Con esta funcion DELETE podemos borrar toda una gestion, incluido el a&#xF1;o y sus feriados respectivos.</p>
+<pre><code><code class="source-code prettyprint">http://localhost:3000/api/v1/feriados/gestion</code>
+</code></pre><h2 id="status">Status</h2><p>Esta funcion nos muestra si la api esta disponible o no</p>
+<pre><code><code class="source-code prettyprint">http://localhost:3000/api/v1/status</code>
+</code></pre></div>
+</div>
+
+<footer class="footer">
+  Generated by <a href="https://esdoc.org">ESDoc<span data-ice="esdocVersion">(1.1.0)</span><img src="./image/esdoc-logo-mini-black.png"></a>
+</footer>
+
+<script src="script/search_index.js"></script>
+<script src="script/search.js"></script>
+<script src="script/pretty-print.js"></script>
+<script src="script/inherited-summary.js"></script>
+<script src="script/test-summary.js"></script>
+<script src="script/inner-link.js"></script>
+<script src="script/patch-for-local.js"></script>
+</body>
+</html>
